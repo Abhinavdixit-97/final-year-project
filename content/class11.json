@@ -1,0 +1,110 @@
+{
+  "class": 11,
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "chapter": "Sets & Relations",
+          "topics": [
+            {
+              "topic": "Sets",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Union of sets A and B is denoted by?","options":["A ∪ B","A ∩ B","A + B","A - B"],"answer":"A ∪ B"},
+                {"type":"mcq","question":"Intersection of sets A and B is?","options":["A ∩ B","A ∪ B","A + B","A - B"],"answer":"A ∩ B"},
+                {"type":"fill_blank","question":"Empty set symbol is ___","answer":"∅"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Functions",
+          "topics": [
+            {
+              "topic": "Types of Functions",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"A function f: A → B is called injective if?","options":["Different elements of A map to different elements of B","All elements of A map to same element of B","None","All"],"answer":"Different elements of A map to different elements of B"},
+                {"type":"mcq","question":"A function f: A → B is surjective if?","options":["Every element of B has a pre-image in A","No element of B has a pre-image","All elements map to same element","None"],"answer":"Every element of B has a pre-image"},
+                {"type":"fill_blank","question":"Bijective = ___ + ___","answer":"Injective + Surjective"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "chapters": [
+        {
+          "chapter": "Grammar",
+          "topics": [
+            {
+              "topic": "Direct & Indirect Speech",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Direct: She said, 'I am hungry' → Indirect?","options":["She said that she was hungry","She said I am hungry","She said she is hungry","She said she am hungry"],"answer":"She said that she was hungry"},
+                {"type":"mcq","question":"Direct: He said, 'I will come tomorrow' → Indirect?","options":["He said he would come tomorrow","He said I will come tomorrow","He said he will come tomorrow","He said he come tomorrow"],"answer":"He said he would come tomorrow"},
+                {"type":"fill_blank","question":"Direct: 'I like it' → Indirect: ___","answer":"He/She said that he/she liked it"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Vocabulary",
+          "topics": [
+            {
+              "topic": "Phrasal Verbs",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Meaning of 'Look after'?","options":["Take care","See","Search","Ignore"],"answer":"Take care"},
+                {"type":"mcq","question":"Meaning of 'Give up'?","options":["Quit","Offer","Take","Stop"],"answer":"Quit"},
+                {"type":"fill_blank","question":"Meaning of 'Break down' is ___","answer":"Stop functioning"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Science",
+      "chapters": [
+        {
+          "chapter": "Physics",
+          "topics": [
+            {
+              "topic": "Gravitation",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Acceleration due to gravity on Earth?","options":["9.8 m/s²","10 m/s²","9 m/s²","8.9 m/s²"],"answer":"9.8 m/s²"},
+                {"type":"mcq","question":"Force of gravitation is?","options":["Attractive","Repulsive","Neutral","None"],"answer":"Attractive"},
+                {"type":"fill_blank","question":"Formula: F = G × m1 × m2 / ___²","answer":"r"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Biology",
+          "topics": [
+            {
+              "topic": "Human Physiology",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Function of kidneys?","options":["Filter blood","Pump blood","Digest food","Breathe"],"answer":"Filter blood"},
+                {"type":"mcq","question":"Largest gland in human body?","options":["Liver","Pancreas","Thyroid","Adrenal"],"answer":"Liver"},
+                {"type":"fill_blank","question":"Red blood cells carry ___","answer":"Oxygen"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
