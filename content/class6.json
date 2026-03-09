@@ -1,0 +1,128 @@
+{
+  "class": 6,
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "chapter": "Number System",
+          "topics": [
+            {
+              "topic": "Basic Numbers",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Which is the smallest prime number?","options":["0","1","2","3"],"answer":"2"},
+                {"type":"mcq","question":"Which number is even?","options":["11","15","18","21"],"answer":"18"},
+                {"type":"mcq","question":"Which number is odd?","options":["10","12","15","18"],"answer":"15"},
+                {"type":"mcq","question":"LCM of 4 and 6?","options":["10","12","16","18"],"answer":"12"},
+                {"type":"mcq","question":"HCF of 8 and 12?","options":["2","4","6","8"],"answer":"4"},
+                {"type":"fill_blank","question":"10 × 10 = ___","answer":"100"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Fractions",
+          "topics": [
+            {
+              "topic": "Fraction Operations",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"1/2 + 1/2 = ?","options":["1","2","1/2","0"],"answer":"1"},
+                {"type":"mcq","question":"3/4 is greater than?","options":["1/2","1","2","3"],"answer":"1/2"},
+                {"type":"mcq","question":"2/3 of 9 = ?","options":["3","4","5","6"],"answer":"6"},
+                {"type":"mcq","question":"Which is smallest?","options":["1/2","1/3","1/4","1/5"],"answer":"1/5"},
+                {"type":"mcq","question":"1/4 of 20 = ?","options":["4","5","6","7"],"answer":"5"},
+                {"type":"fill_blank","question":"1/2 of 16 = ___","answer":"8"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "chapters": [
+        {
+          "chapter": "Grammar",
+          "topics": [
+            {
+              "topic": "Parts of Speech",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Which word is a noun?","options":["City","Run","Quick","Jump"],"answer":"City"},
+                {"type":"mcq","question":"Which word is a verb?","options":["Eat","Apple","Book","Chair"],"answer":"Eat"},
+                {"type":"mcq","question":"Which word is an adjective?","options":["Beautiful","Run","Eat","Jump"],"answer":"Beautiful"},
+                {"type":"mcq","question":"Which word is a pronoun?","options":["He","Book","Dog","Chair"],"answer":"He"},
+                {"type":"mcq","question":"Which word is an adverb?","options":["Quickly","Fast","Run","Jump"],"answer":"Quickly"},
+                {"type":"mcq","question":"Which word is a conjunction?","options":["And","Run","Eat","Jump"],"answer":"And"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Vocabulary",
+          "topics": [
+            {
+              "topic": "Synonyms and Antonyms",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Synonym of brave?","options":["Courageous","Weak","Fear","Lazy"],"answer":"Courageous"},
+                {"type":"mcq","question":"Opposite of dark?","options":["Light","Night","Black","Shadow"],"answer":"Light"},
+                {"type":"mcq","question":"Synonym of happy?","options":["Joyful","Sad","Angry","Cold"],"answer":"Joyful"},
+                {"type":"mcq","question":"Opposite of rich?","options":["Poor","Big","Tall","Fast"],"answer":"Poor"},
+                {"type":"mcq","question":"Synonym of fast?","options":["Quick","Slow","Late","Cold"],"answer":"Quick"},
+                {"type":"mcq","question":"Opposite of early?","options":["Late","Soon","Quick","Now"],"answer":"Late"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Science",
+      "chapters": [
+        {
+          "chapter": "Living and Non-Living",
+          "topics": [
+            {
+              "topic": "Characteristics",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Which is a living thing?","options":["Tree","Rock","Water","Air"],"answer":"Tree"},
+                {"type":"mcq","question":"Which is non-living?","options":["Stone","Dog","Plant","Bird"],"answer":"Stone"},
+                {"type":"mcq","question":"Living things need?","options":["Food","Plastic","Metal","Glass"],"answer":"Food"},
+                {"type":"mcq","question":"Plants make food using?","options":["Sunlight","Plastic","Metal","Glass"],"answer":"Sunlight"},
+                {"type":"mcq","question":"Process by which plants make food?","options":["Photosynthesis","Digestion","Respiration","Evaporation"],"answer":"Photosynthesis"},
+                {"type":"mcq","question":"Living things grow and?","options":["Reproduce","Sleep forever","Disappear","Break"],"answer":"Reproduce"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Force and Motion",
+          "topics": [
+            {
+              "topic": "Basic Physics",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Force can change?","options":["Motion","Color","Taste","Smell"],"answer":"Motion"},
+                {"type":"mcq","question":"Push and pull are types of?","options":["Force","Energy","Light","Heat"],"answer":"Force"},
+                {"type":"mcq","question":"Which force pulls objects to Earth?","options":["Gravity","Magnet","Wind","Water"],"answer":"Gravity"},
+                {"type":"mcq","question":"Magnet attracts?","options":["Iron","Wood","Plastic","Glass"],"answer":"Iron"},
+                {"type":"mcq","question":"Motion means?","options":["Movement","Sleep","Break","Stop"],"answer":"Movement"},
+                {"type":"mcq","question":"Friction slows down?","options":["Motion","Light","Sound","Heat"],"answer":"Motion"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
