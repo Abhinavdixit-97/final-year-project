@@ -1,0 +1,128 @@
+{
+  "class": 4,
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "chapter": "Large Numbers",
+          "topics": [
+            {
+              "topic": "Place Value",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Place value of 7 in 4732?","options":["7","70","700","7000"],"answer":"700"},
+                {"type":"mcq","question":"Which is the greatest number?","options":["3456","3564","3654","3546"],"answer":"3654"},
+                {"type":"mcq","question":"How many hundreds are in 900?","options":["7","8","9","10"],"answer":"9"},
+                {"type":"fill_blank","question":"1000 + 200 = ___","answer":"1200"},
+                {"type":"mcq","question":"Which is the smallest number?","options":["1023","1230","1320","1203"],"answer":"1023"},
+                {"type":"fill_blank","question":"___ is the smallest 4-digit number","answer":"1000"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Multiplication and Division",
+          "topics": [
+            {
+              "topic": "Operations",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"5 × 6 = ?","options":["25","30","35","40"],"answer":"30"},
+                {"type":"mcq","question":"8 × 7 = ?","options":["54","56","58","60"],"answer":"56"},
+                {"type":"mcq","question":"36 ÷ 6 = ?","options":["5","6","7","8"],"answer":"6"},
+                {"type":"mcq","question":"45 ÷ 5 = ?","options":["7","8","9","10"],"answer":"9"},
+                {"type":"mcq","question":"9 × 4 = ?","options":["32","34","36","38"],"answer":"36"},
+                {"type":"fill_blank","question":"72 ÷ 8 = ___","answer":"9"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "chapters": [
+        {
+          "chapter": "Grammar",
+          "topics": [
+            {
+              "topic": "Adjectives",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Which word is an adjective?","options":["Beautiful","Run","Eat","Jump"],"answer":"Beautiful"},
+                {"type":"mcq","question":"Which word describes a noun?","options":["Happy","Run","Eat","Jump"],"answer":"Happy"},
+                {"type":"mcq","question":"Which word describes size?","options":["Big","Run","Eat","Jump"],"answer":"Big"},
+                {"type":"mcq","question":"Which word describes color?","options":["Red","Run","Eat","Jump"],"answer":"Red"},
+                {"type":"mcq","question":"Which word describes shape?","options":["Round","Eat","Jump","Run"],"answer":"Round"},
+                {"type":"mcq","question":"Which word describes taste?","options":["Sweet","Run","Jump","Play"],"answer":"Sweet"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Sentence Formation",
+          "topics": [
+            {
+              "topic": "Correct Sentences",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Choose correct sentence","options":["She go to school","She goes to school","She going school","She gone school"],"answer":"She goes to school"},
+                {"type":"mcq","question":"Choose correct sentence","options":["He eat mango","He eats mango","He eating mango","He eaten mango"],"answer":"He eats mango"},
+                {"type":"mcq","question":"Choose correct sentence","options":["They plays cricket","They play cricket","They playing cricket","They played cricket now"],"answer":"They play cricket"},
+                {"type":"mcq","question":"Choose correct sentence","options":["I am read book","I read book","I reading book","I reads book"],"answer":"I read book"},
+                {"type":"mcq","question":"Choose correct sentence","options":["We goes home","We go home","We going home","We gone home"],"answer":"We go home"},
+                {"type":"mcq","question":"Choose correct sentence","options":["She like apple","She likes apple","She liking apple","She liked apple now"],"answer":"She likes apple"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EVS",
+      "chapters": [
+        {
+          "chapter": "Plants",
+          "topics": [
+            {
+              "topic": "Plant Parts",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Which part makes food for plant?","options":["Leaf","Root","Stem","Flower"],"answer":"Leaf"},
+                {"type":"mcq","question":"Which part absorbs water?","options":["Root","Leaf","Flower","Fruit"],"answer":"Root"},
+                {"type":"mcq","question":"Which part supports plant?","options":["Stem","Leaf","Fruit","Flower"],"answer":"Stem"},
+                {"type":"mcq","question":"Which part becomes fruit?","options":["Flower","Leaf","Stem","Root"],"answer":"Flower"},
+                {"type":"mcq","question":"Which part contains seeds?","options":["Fruit","Leaf","Stem","Root"],"answer":"Fruit"},
+                {"type":"mcq","question":"Which helps plants breathe?","options":["Leaf","Root","Stem","Fruit"],"answer":"Leaf"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Our Earth",
+          "topics": [
+            {
+              "topic": "Environment",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Which planet do we live on?","options":["Earth","Mars","Venus","Jupiter"],"answer":"Earth"},
+                {"type":"mcq","question":"Which is the nearest star to Earth?","options":["Sun","Moon","Mars","Venus"],"answer":"Sun"},
+                {"type":"mcq","question":"Which causes day and night?","options":["Earth rotation","Wind","Rain","Moon"],"answer":"Earth rotation"},
+                {"type":"mcq","question":"Which is natural satellite of Earth?","options":["Moon","Sun","Mars","Venus"],"answer":"Moon"},
+                {"type":"mcq","question":"Which is source of light on Earth?","options":["Sun","Moon","Star","Fire"],"answer":"Sun"},
+                {"type":"mcq","question":"Which helps keep Earth clean?","options":["Planting trees","Cutting trees","Burning plastic","Throwing garbage"],"answer":"Planting trees"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
