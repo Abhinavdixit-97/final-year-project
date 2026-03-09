@@ -1,0 +1,128 @@
+{
+  "class": 3,
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "chapter": "Numbers and Place Value",
+          "topics": [
+            {
+              "topic": "Place Value",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Place value of 5 in 154?","options":["5","50","500","15"],"answer":"50"},
+                {"type":"mcq","question":"Place value of 3 in 342?","options":["3","30","300","34"],"answer":"300"},
+                {"type":"mcq","question":"Which is the greatest number?","options":["245","254","425","452"],"answer":"452"},
+                {"type":"fill_blank","question":"100 + 50 = ___","answer":"150"},
+                {"type":"mcq","question":"How many tens in 60?","options":["5","6","7","8"],"answer":"6"},
+                {"type":"fill_blank","question":"___ is the smallest 3-digit number","answer":"100"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Addition and Subtraction",
+          "topics": [
+            {
+              "topic": "Operations",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"23 + 12 = ?","options":["33","35","36","37"],"answer":"35"},
+                {"type":"mcq","question":"45 + 15 = ?","options":["60","55","50","65"],"answer":"60"},
+                {"type":"mcq","question":"50 - 20 = ?","options":["20","25","30","35"],"answer":"30"},
+                {"type":"mcq","question":"70 - 35 = ?","options":["30","35","40","45"],"answer":"35"},
+                {"type":"mcq","question":"15 + 25 = ?","options":["35","40","45","50"],"answer":"40"},
+                {"type":"fill_blank","question":"80 - 10 = ___","answer":"70"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "chapters": [
+        {
+          "chapter": "Parts of Speech",
+          "topics": [
+            {
+              "topic": "Noun and Verb",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Which word is a noun?","options":["Run","Boy","Quick","Jump"],"answer":"Boy"},
+                {"type":"mcq","question":"Which word is a verb?","options":["Eat","Apple","Table","Dog"],"answer":"Eat"},
+                {"type":"mcq","question":"Which word is a noun?","options":["School","Run","Jump","Eat"],"answer":"School"},
+                {"type":"mcq","question":"Which word is an action?","options":["Jump","Pen","Chair","Bag"],"answer":"Jump"},
+                {"type":"mcq","question":"Which word is a person?","options":["Teacher","Book","Table","Apple"],"answer":"Teacher"},
+                {"type":"mcq","question":"Which word is a place?","options":["Park","Run","Eat","Jump"],"answer":"Park"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Synonyms and Antonyms",
+          "topics": [
+            {
+              "topic": "Word Meaning",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Synonym of happy?","options":["Sad","Joyful","Angry","Cold"],"answer":"Joyful"},
+                {"type":"mcq","question":"Opposite of tall?","options":["Short","Big","Wide","Thin"],"answer":"Short"},
+                {"type":"mcq","question":"Synonym of quick?","options":["Fast","Slow","Late","Cold"],"answer":"Fast"},
+                {"type":"mcq","question":"Opposite of clean?","options":["Dirty","Nice","Good","Bright"],"answer":"Dirty"},
+                {"type":"mcq","question":"Synonym of small?","options":["Tiny","Huge","Tall","Wide"],"answer":"Tiny"},
+                {"type":"mcq","question":"Opposite of early?","options":["Late","Soon","Quick","Now"],"answer":"Late"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EVS",
+      "chapters": [
+        {
+          "chapter": "Food and Nutrition",
+          "topics": [
+            {
+              "topic": "Healthy Food",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Which food is healthy?","options":["Fruit","Candy","Chips","Soda"],"answer":"Fruit"},
+                {"type":"mcq","question":"Which drink is healthy?","options":["Milk","Cola","Soda","Juice drink"],"answer":"Milk"},
+                {"type":"mcq","question":"Which food gives energy?","options":["Rice","Stone","Plastic","Paper"],"answer":"Rice"},
+                {"type":"mcq","question":"Which food helps us grow?","options":["Vegetables","Candy","Chocolate","Chips"],"answer":"Vegetables"},
+                {"type":"mcq","question":"Which is junk food?","options":["Burger","Apple","Milk","Rice"],"answer":"Burger"},
+                {"type":"mcq","question":"Which is a fruit?","options":["Banana","Carrot","Potato","Onion"],"answer":"Banana"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Our Environment",
+          "topics": [
+            {
+              "topic": "Nature",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type":"mcq","question":"Which gives us oxygen?","options":["Plants","Cars","Plastic","Buildings"],"answer":"Plants"},
+                {"type":"mcq","question":"Which pollutes air?","options":["Smoke","Trees","Flowers","Grass"],"answer":"Smoke"},
+                {"type":"mcq","question":"Which is natural resource?","options":["Water","Plastic","Metal box","Toy"],"answer":"Water"},
+                {"type":"mcq","question":"Which helps keep environment clean?","options":["Planting trees","Burning plastic","Throwing garbage","Cutting trees"],"answer":"Planting trees"},
+                {"type":"mcq","question":"Which is source of water?","options":["River","Road","House","Car"],"answer":"River"},
+                {"type":"mcq","question":"Which is renewable resource?","options":["Sunlight","Coal","Petrol","Gas"],"answer":"Sunlight"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
