@@ -1,0 +1,128 @@
+{
+  "class": 1,
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "chapters": [
+        {
+          "chapter": "Numbers 1-10",
+          "topics": [
+            {
+              "topic": "Counting",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type": "mcq","question": "Which number comes after 3?","options": ["2","4","5","6"],"answer": "4"},
+                {"type": "mcq","question": "Which number comes before 5?","options": ["3","4","6","7"],"answer": "4"},
+                {"type": "mcq","question": "How many fingers are on one hand?","options": ["3","4","5","6"],"answer": "5"},
+                {"type": "fill_blank","question": "7 comes after ___","answer": "6"},
+                {"type": "fill_blank","question": "9 comes before ___","answer": "10"},
+                {"type": "mcq","question": "Which is the smallest number?","options": ["1","5","7","9"],"answer": "1"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Addition",
+          "topics": [
+            {
+              "topic": "Simple Addition",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type": "mcq","question": "1 + 1 = ?","options": ["1","2","3","4"],"answer": "2"},
+                {"type": "mcq","question": "2 + 1 = ?","options": ["2","3","4","5"],"answer": "3"},
+                {"type": "mcq","question": "3 + 2 = ?","options": ["4","5","6","3"],"answer": "5"},
+                {"type": "mcq","question": "4 + 1 = ?","options": ["4","5","6","7"],"answer": "5"},
+                {"type": "mcq","question": "2 + 2 = ?","options": ["2","3","4","5"],"answer": "4"},
+                {"type": "fill_blank","question": "5 + 1 = ___","answer": "6"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "chapters": [
+        {
+          "chapter": "Alphabets",
+          "topics": [
+            {
+              "topic": "Letters",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type": "mcq","question": "Which letter comes first?","options": ["A","B","C","D"],"answer": "A"},
+                {"type": "mcq","question": "Which letter comes after A?","options": ["B","C","D","E"],"answer": "B"},
+                {"type": "mcq","question": "Which letter comes after C?","options": ["D","E","F","G"],"answer": "D"},
+                {"type": "mcq","question": "Which letter comes before D?","options": ["A","B","C","E"],"answer": "C"},
+                {"type": "mcq","question": "Which letter comes after E?","options": ["F","G","H","I"],"answer": "F"},
+                {"type": "mcq","question": "Which letter is a vowel?","options": ["A","B","C","D"],"answer": "A"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Words",
+          "topics": [
+            {
+              "topic": "Simple Words",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type": "mcq","question": "Which word is a fruit?","options": ["Apple","Chair","Table","Book"],"answer": "Apple"},
+                {"type": "mcq","question": "Which word is an animal?","options": ["Dog","Pen","Bag","Cup"],"answer": "Dog"},
+                {"type": "mcq","question": "Which word is a color?","options": ["Red","Ball","Hat","Car"],"answer": "Red"},
+                {"type": "mcq","question": "Which word is a body part?","options": ["Hand","Tree","Road","Bus"],"answer": "Hand"},
+                {"type": "mcq","question": "Which word is a vehicle?","options": ["Car","Apple","Dog","Chair"],"answer": "Car"},
+                {"type": "mcq","question": "Which word is a bird?","options": ["Parrot","Table","Bag","Pen"],"answer": "Parrot"}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EVS",
+      "chapters": [
+        {
+          "chapter": "My Body",
+          "topics": [
+            {
+              "topic": "Body Parts",
+              "level": 1,
+              "xp_reward": 10,
+              "questions": [
+                {"type": "mcq","question": "Which part helps us see?","options": ["Eyes","Hands","Legs","Ears"],"answer": "Eyes"},
+                {"type": "mcq","question": "Which part helps us hear?","options": ["Eyes","Ears","Hands","Legs"],"answer": "Ears"},
+                {"type": "mcq","question": "Which part helps us walk?","options": ["Legs","Eyes","Hands","Nose"],"answer": "Legs"},
+                {"type": "mcq","question": "Which part helps us smell?","options": ["Nose","Eyes","Hands","Feet"],"answer": "Nose"},
+                {"type": "mcq","question": "Which part helps us eat?","options": ["Mouth","Ear","Hand","Eye"],"answer": "Mouth"},
+                {"type": "mcq","question": "Which part helps us hold things?","options": ["Hands","Eyes","Legs","Nose"],"answer": "Hands"}
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Animals",
+          "topics": [
+            {
+              "topic": "Animals Around Us",
+              "level": 2,
+              "xp_reward": 10,
+              "questions": [
+                {"type": "mcq","question": "Which animal gives us milk?","options": ["Cow","Tiger","Lion","Elephant"],"answer": "Cow"},
+                {"type": "mcq","question": "Which animal is called king of jungle?","options": ["Lion","Dog","Cat","Cow"],"answer": "Lion"},
+                {"type": "mcq","question": "Which animal barks?","options": ["Dog","Cat","Cow","Goat"],"answer": "Dog"},
+                {"type": "mcq","question": "Which animal meows?","options": ["Cat","Dog","Lion","Tiger"],"answer": "Cat"},
+                {"type": "mcq","question": "Which animal is the largest?","options": ["Elephant","Dog","Cat","Goat"],"answer": "Elephant"},
+                {"type": "mcq","question": "Which animal eats grass?","options": ["Cow","Tiger","Lion","Cat"],"answer": "Cow"}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
