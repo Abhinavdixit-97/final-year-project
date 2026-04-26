@@ -10,6 +10,7 @@ import Results from "./pages/Results";
 import ReferencesTeam from "./pages/ReferencesTeam";
 import TeacherHub from "./pages/TeacherHub";
 import StudentHub from "./pages/StudentHub";
+import GlobalAskWidget from "./components/GlobalAskWidget";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           </Routes>
         </main>
         <Footer />
+        <GlobalAskWidget />
       </div>
     </BrowserRouter>
   );

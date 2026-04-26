@@ -1,83 +1,540 @@
 {
-  "class": 7,
+  "class": "7",
+  "board": "CBSE",
+  "basis": "Official CBSE curriculum with NCERT-aligned chapter and unit structure for supported subjects in this app.",
+  "generatedAt": "2026-04-16T17:37:43.328Z",
+  "sourceLinks": {
+    "cbseCurriculum2026_27": "https://cbseacademic.nic.in/curriculum_2027.html",
+    "cbseCurriculum2025_26": "https://cbseacademic.nic.in/curriculum_2026.html",
+    "ncertTextbooks": "https://ncert.nic.in/textbook.php?ln=en"
+  },
   "subjects": [
     {
       "name": "Mathematics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
+          "id": "7-mathematics-1",
           "chapter": "Integers",
-          "topics": [
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Integers as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Integers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Integers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Integers is a Class 7 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Basic Integer Operations",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Which is a negative integer?","options":["-5","3","0","7"],"answer":"-5"},
-                {"type":"mcq","question":"What is -3 + 5?","options":["2","-2","8","-8"],"answer":"2"},
-                {"type":"mcq","question":"What is 7 - 10?","options":["-3","3","17","-17"],"answer":"-3"},
-                {"type":"mcq","question":"Which number is greater?","options":["-2","-5","-10","-20"],"answer":"-2"},
-                {"type":"mcq","question":"Absolute value of -8?","options":["-8","8","0","16"],"answer":"8"},
-                {"type":"fill_blank","question":"-4 + 9 = ___","answer":"5"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Integers. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
-          "chapter": "Algebra",
-          "topics": [
+          "id": "7-mathematics-2",
+          "chapter": "Fractions and Decimals",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Fractions and Decimals as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Fractions and Decimals.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Fractions and Decimals",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Fractions and Decimals is a Class 7 Mathematics chapter that focuses on how quantities are compared and represented in different forms. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to equivalent forms, comparison of parts and wholes, and numerical relationships. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students use these ideas while measuring, sharing, and comparing quantities. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Basic Algebraic Expressions",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Value of x if x + 3 = 7?","options":["4","3","7","10"],"answer":"4"},
-                {"type":"mcq","question":"Which is a variable?","options":["x","5","+","10"],"answer":"x"},
-                {"type":"mcq","question":"2x when x = 3 equals?","options":["5","6","3","9"],"answer":"6"},
-                {"type":"mcq","question":"x + x = ?","options":["2x","x2","x+x","0"],"answer":"2x"},
-                {"type":"mcq","question":"Value of 3x when x = 2?","options":["6","5","3","9"],"answer":"6"},
-                {"type":"fill_blank","question":"If x = 5 then x + 2 = ___","answer":"7"}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "English",
-      "chapters": [
-        {
-          "chapter": "Grammar",
-          "topics": [
+              "title": "What to read first",
+              "text": "Start with the main idea of Fractions and Decimals. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
             {
-              "topic": "Tenses",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"She ___ to school every day.","options":["go","goes","going","gone"],"answer":"goes"},
-                {"type":"mcq","question":"I ___ a movie yesterday.","options":["watch","watched","watching","watches"],"answer":"watched"},
-                {"type":"mcq","question":"They ___ playing football.","options":["is","are","was","be"],"answer":"are"},
-                {"type":"mcq","question":"We ___ dinner now.","options":["eat","ate","are eating","eaten"],"answer":"are eating"},
-                {"type":"mcq","question":"He ___ finished his work.","options":["has","have","had","having"],"answer":"has"},
-                {"type":"mcq","question":"She ___ a song tomorrow.","options":["sing","sang","will sing","sung"],"answer":"will sing"}
-              ]
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
-          "chapter": "Vocabulary",
-          "topics": [
+          "id": "7-mathematics-3",
+          "chapter": "Data Handling",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Data Handling as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Data Handling.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Data Handling",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Data Handling is a Class 7 Mathematics chapter that focuses on collecting, organising, and interpreting information. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to tables and graphs, patterns in data, and chance and likelihood. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read information carefully and make sensible conclusions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Word Meanings",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Synonym of large?","options":["Big","Small","Tiny","Short"],"answer":"Big"},
-                {"type":"mcq","question":"Opposite of strong?","options":["Weak","Fast","Tall","Wide"],"answer":"Weak"},
-                {"type":"mcq","question":"Synonym of begin?","options":["Start","Stop","End","Close"],"answer":"Start"},
-                {"type":"mcq","question":"Opposite of hot?","options":["Cold","Warm","Cool","Heat"],"answer":"Cold"},
-                {"type":"mcq","question":"Synonym of smart?","options":["Intelligent","Lazy","Weak","Slow"],"answer":"Intelligent"},
-                {"type":"mcq","question":"Opposite of open?","options":["Close","Start","Begin","Lift"],"answer":"Close"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Data Handling. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-4",
+          "chapter": "Simple Equations",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Simple Equations as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Simple Equations.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Simple Equations",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Simple Equations is a Class 7 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Simple Equations. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-5",
+          "chapter": "Lines and Angles",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Lines and Angles as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Lines and Angles.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Lines and Angles",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Lines and Angles is a Class 7 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Lines and Angles. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-6",
+          "chapter": "The Triangle and Its Properties",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers The Triangle and Its Properties as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Triangle and Its Properties.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in The Triangle and Its Properties",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "The Triangle and Its Properties is a Class 7 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Triangle and Its Properties. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-7",
+          "chapter": "Congruence of Triangles",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Congruence of Triangles as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Congruence of Triangles.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Congruence of Triangles",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Congruence of Triangles is a Class 7 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Congruence of Triangles. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-8",
+          "chapter": "Comparing Quantities",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Comparing Quantities as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Comparing Quantities.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Comparing Quantities",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Comparing Quantities is a Class 7 Mathematics chapter that focuses on the main ideas introduced in Comparing Quantities. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Comparing Quantities. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-9",
+          "chapter": "Rational Numbers",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Rational Numbers as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Rational Numbers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Rational Numbers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Rational Numbers is a Class 7 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Rational Numbers. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-10",
+          "chapter": "Practical Geometry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Practical Geometry as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Practical Geometry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Practical Geometry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Practical Geometry is a Class 7 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Practical Geometry. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-11",
+          "chapter": "Perimeter and Area",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Perimeter and Area as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Perimeter and Area.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Perimeter and Area",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Perimeter and Area is a Class 7 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Perimeter and Area. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-12",
+          "chapter": "Algebraic Expressions",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Algebraic Expressions as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Algebraic Expressions.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Algebraic Expressions",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Algebraic Expressions is a Class 7 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Algebraic Expressions. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-13",
+          "chapter": "Exponents and Powers",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Exponents and Powers as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Exponents and Powers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Exponents and Powers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Exponents and Powers is a Class 7 Mathematics chapter that focuses on the main ideas introduced in Exponents and Powers. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Exponents and Powers. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-14",
+          "chapter": "Symmetry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Symmetry as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Symmetry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Symmetry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Symmetry is a Class 7 Mathematics chapter that focuses on the main ideas introduced in Symmetry. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Symmetry. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "7-mathematics-15",
+          "chapter": "Visualising Solid Shapes",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 7",
+          "overview": "This chapter covers Visualising Solid Shapes as part of the Class 7 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Visualising Solid Shapes.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Visualising Solid Shapes",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Visualising Solid Shapes is a Class 7 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Visualising Solid Shapes. In Class 7 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         }
@@ -85,40 +542,1668 @@
     },
     {
       "name": "Science",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
+          "id": "7-science-1",
           "chapter": "Nutrition in Plants",
-          "topics": [
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Nutrition in Plants as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Nutrition in Plants.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Nutrition in Plants",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Nutrition in Plants is a Class 7 Science chapter that focuses on how living bodies get energy, grow, and stay healthy. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to body needs, functions of important components, and health and balance. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "These ideas help students connect science with food habits, fitness, and care of the body. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Photosynthesis",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Plants make food using?","options":["Sunlight","Plastic","Metal","Glass"],"answer":"Sunlight"},
-                {"type":"mcq","question":"Green pigment in leaves?","options":["Chlorophyll","Protein","Iron","Calcium"],"answer":"Chlorophyll"},
-                {"type":"mcq","question":"Plants take in which gas?","options":["Carbon dioxide","Oxygen","Nitrogen","Hydrogen"],"answer":"Carbon dioxide"},
-                {"type":"mcq","question":"Plants release which gas?","options":["Oxygen","Carbon dioxide","Nitrogen","Hydrogen"],"answer":"Oxygen"},
-                {"type":"mcq","question":"Food in plants is stored as?","options":["Starch","Sugar","Salt","Protein"],"answer":"Starch"},
-                {"type":"mcq","question":"Photosynthesis happens in?","options":["Leaves","Roots","Stem","Flower"],"answer":"Leaves"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Nutrition in Plants. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
             }
           ]
         },
         {
-          "chapter": "Heat",
-          "topics": [
+          "id": "7-science-2",
+          "chapter": "Nutrition in Animals",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Nutrition in Animals as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Nutrition in Animals.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Nutrition in Animals",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Nutrition in Animals is a Class 7 Science chapter that focuses on how living bodies get energy, grow, and stay healthy. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to body needs, functions of important components, and health and balance. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "These ideas help students connect science with food habits, fitness, and care of the body. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Temperature and Heat Transfer",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Instrument used to measure temperature?","options":["Thermometer","Barometer","Speedometer","Compass"],"answer":"Thermometer"},
-                {"type":"mcq","question":"Heat flows from?","options":["Hot to cold","Cold to hot","Equal","None"],"answer":"Hot to cold"},
-                {"type":"mcq","question":"Unit of temperature?","options":["Celsius","Meter","Gram","Second"],"answer":"Celsius"},
-                {"type":"mcq","question":"Heat transfer through solids?","options":["Conduction","Convection","Radiation","Evaporation"],"answer":"Conduction"},
-                {"type":"mcq","question":"Heat transfer in liquids and gases?","options":["Convection","Conduction","Radiation","Reflection"],"answer":"Convection"},
-                {"type":"mcq","question":"Heat from the Sun reaches Earth by?","options":["Radiation","Conduction","Convection","Friction"],"answer":"Radiation"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Nutrition in Animals. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-3",
+          "chapter": "Fibre to Fabric",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Fibre to Fabric as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Fibre to Fabric.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Fibre to Fabric",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Fibre to Fabric is a Class 7 Science chapter that focuses on living plants, their structure, growth, and usefulness. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to plant functions, natural materials, and links with environment and daily life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to understand how nature supports food, materials, and ecosystems. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Fibre to Fabric. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-4",
+          "chapter": "Heat",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Heat as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Heat.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Heat",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Heat is a Class 7 Science chapter that focuses on the main ideas introduced in Heat. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Heat. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-5",
+          "chapter": "Acids, Bases and Salts",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Acids, Bases and Salts as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Acids, Bases and Salts.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Acids, Bases and Salts",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Acids, Bases and Salts is a Class 7 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Acids, Bases and Salts. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-6",
+          "chapter": "Physical and Chemical Changes",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Physical and Chemical Changes as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Physical and Chemical Changes.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Physical and Chemical Changes",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Physical and Chemical Changes is a Class 7 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Physical and Chemical Changes. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-7",
+          "chapter": "Weather, Climate and Adaptations of Animals to Climate",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Weather, Climate and Adaptations of Animals to Climate as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Weather, Climate and Adaptations of Animals to Climate.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Weather, Climate and Adaptations of Animals to Climate",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Weather, Climate and Adaptations of Animals to Climate is a Class 7 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Weather, Climate and Adaptations of Animals to Climate. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-8",
+          "chapter": "Winds, Storms and Cyclones",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Winds, Storms and Cyclones as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Winds, Storms and Cyclones.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Winds, Storms and Cyclones",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Winds, Storms and Cyclones is a Class 7 Science chapter that focuses on the main ideas introduced in Winds, Storms and Cyclones. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Winds, Storms and Cyclones. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-9",
+          "chapter": "Soil",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Soil as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Soil.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Soil",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Soil is a Class 7 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Soil. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-10",
+          "chapter": "Respiration in Organisms",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Respiration in Organisms as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Respiration in Organisms.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Respiration in Organisms",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Respiration in Organisms is a Class 7 Science chapter that focuses on life processes, living systems, and continuity of life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to structure and function, growth and survival, and interaction within living systems. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students understand how living things function, adapt, and remain connected to the environment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Respiration in Organisms. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-11",
+          "chapter": "Transportation in Animals and Plants",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Transportation in Animals and Plants as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Transportation in Animals and Plants.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Transportation in Animals and Plants",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Transportation in Animals and Plants is a Class 7 Science chapter that focuses on living plants, their structure, growth, and usefulness. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to plant functions, natural materials, and links with environment and daily life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to understand how nature supports food, materials, and ecosystems. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Transportation in Animals and Plants. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-12",
+          "chapter": "Reproduction in Plants",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Reproduction in Plants as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Reproduction in Plants.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Reproduction in Plants",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Reproduction in Plants is a Class 7 Science chapter that focuses on living plants, their structure, growth, and usefulness. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to plant functions, natural materials, and links with environment and daily life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to understand how nature supports food, materials, and ecosystems. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Reproduction in Plants. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-13",
+          "chapter": "Motion and Time",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Motion and Time as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Motion and Time.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Motion and Time",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Motion and Time is a Class 7 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Motion and Time. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-14",
+          "chapter": "Electric Current and Its Effects",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Electric Current and Its Effects as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Electric Current and Its Effects.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Electric Current and Its Effects",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Electric Current and Its Effects is a Class 7 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Electric Current and Its Effects. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-15",
+          "chapter": "Light",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Light as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Light.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Light",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Light is a Class 7 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Light. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-16",
+          "chapter": "Water: A Precious Resource",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Water: A Precious Resource as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Water: A Precious Resource.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Water: A Precious Resource",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Water: A Precious Resource is a Class 7 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Water: A Precious Resource. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-17",
+          "chapter": "Forests: Our Lifeline",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Forests: Our Lifeline as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Forests: Our Lifeline.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Forests: Our Lifeline",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Forests: Our Lifeline is a Class 7 Science chapter that focuses on living plants, their structure, growth, and usefulness. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to plant functions, natural materials, and links with environment and daily life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to understand how nature supports food, materials, and ecosystems. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Forests: Our Lifeline. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "7-science-18",
+          "chapter": "Wastewater Story",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 7",
+          "overview": "This chapter covers Wastewater Story as part of the Class 7 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Wastewater Story.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Wastewater Story",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Wastewater Story is a Class 7 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Wastewater Story. In Class 7 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "7-history-1",
+          "chapter": "Tracing Changes Through a Thousand Years",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers Tracing Changes Through a Thousand Years as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Tracing Changes Through a Thousand Years.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Tracing Changes Through a Thousand Years",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Tracing Changes Through a Thousand Years is a Class 7 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Tracing Changes Through a Thousand Years. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "7-history-2",
+          "chapter": "New Kings and Kingdoms",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers New Kings and Kingdoms as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from New Kings and Kingdoms.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in New Kings and Kingdoms",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "New Kings and Kingdoms is a Class 7 History chapter that focuses on political power, rule, and administration in the past. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rulers and institutions, expansion and control, and records of the past. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn that history is built from evidence, events, and changing forms of power. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of New Kings and Kingdoms. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "7-history-3",
+          "chapter": "The Delhi Sultans",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers The Delhi Sultans as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Delhi Sultans.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in The Delhi Sultans",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "The Delhi Sultans is a Class 7 History chapter that focuses on political power, rule, and administration in the past. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rulers and institutions, expansion and control, and records of the past. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn that history is built from evidence, events, and changing forms of power. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Delhi Sultans. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "7-history-4",
+          "chapter": "The Mughal Empire",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers The Mughal Empire as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Mughal Empire.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in The Mughal Empire",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "The Mughal Empire is a Class 7 History chapter that focuses on political power, rule, and administration in the past. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rulers and institutions, expansion and control, and records of the past. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn that history is built from evidence, events, and changing forms of power. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Mughal Empire. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "7-history-5",
+          "chapter": "Rulers and Buildings",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers Rulers and Buildings as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Rulers and Buildings.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Rulers and Buildings",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Rulers and Buildings is a Class 7 History chapter that focuses on ideas, culture, and the ways people expressed belief and identity. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to sources of history, cultural change, and everyday life and expression. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The reading encourages students to connect art, ideas, and social life with historical study. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Rulers and Buildings. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "7-history-6",
+          "chapter": "Towns, Traders and Craftspeople",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers Towns, Traders and Craftspeople as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Towns, Traders and Craftspeople.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Towns, Traders and Craftspeople",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Towns, Traders and Craftspeople is a Class 7 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Towns, Traders and Craftspeople. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "7-history-7",
+          "chapter": "Tribes, Nomads and Settled Communities",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers Tribes, Nomads and Settled Communities as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Tribes, Nomads and Settled Communities.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Tribes, Nomads and Settled Communities",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Tribes, Nomads and Settled Communities is a Class 7 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Tribes, Nomads and Settled Communities. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "7-history-8",
+          "chapter": "Devotional Paths to the Divine",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers Devotional Paths to the Divine as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Devotional Paths to the Divine.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Devotional Paths to the Divine",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Devotional Paths to the Divine is a Class 7 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Devotional Paths to the Divine. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "7-history-9",
+          "chapter": "The Making of Regional Cultures",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers The Making of Regional Cultures as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Making of Regional Cultures.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in The Making of Regional Cultures",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "The Making of Regional Cultures is a Class 7 History chapter that focuses on political power, rule, and administration in the past. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rulers and institutions, expansion and control, and records of the past. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn that history is built from evidence, events, and changing forms of power. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Making of Regional Cultures. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "7-history-10",
+          "chapter": "Eighteenth-Century Political Formations",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 7",
+          "overview": "This chapter covers Eighteenth-Century Political Formations as part of the Class 7 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Eighteenth-Century Political Formations.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Eighteenth-Century Political Formations",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Eighteenth-Century Political Formations is a Class 7 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Eighteenth-Century Political Formations. In Class 7 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "7-geography-1",
+          "chapter": "Environment",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 7",
+          "overview": "This chapter covers Environment as part of the Class 7 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Environment.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Environment",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Environment is a Class 7 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Environment. In Class 7 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "7-geography-2",
+          "chapter": "Inside Our Earth",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 7",
+          "overview": "This chapter covers Inside Our Earth as part of the Class 7 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Inside Our Earth.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Inside Our Earth",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Inside Our Earth is a Class 7 Geography chapter that focuses on the Earth as a place that can be observed, located, and represented. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to location and direction, maps and models, and spatial understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read the world carefully and connect places with patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Inside Our Earth. In Class 7 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "7-geography-3",
+          "chapter": "Our Changing Earth",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 7",
+          "overview": "This chapter covers Our Changing Earth as part of the Class 7 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Our Changing Earth.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Our Changing Earth",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Our Changing Earth is a Class 7 Geography chapter that focuses on the Earth as a place that can be observed, located, and represented. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to location and direction, maps and models, and spatial understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read the world carefully and connect places with patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Our Changing Earth. In Class 7 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "7-geography-4",
+          "chapter": "Air",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 7",
+          "overview": "This chapter covers Air as part of the Class 7 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Air.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Air",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Air is a Class 7 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Air. In Class 7 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "7-geography-5",
+          "chapter": "Water",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 7",
+          "overview": "This chapter covers Water as part of the Class 7 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Water.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Water",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Water is a Class 7 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Water. In Class 7 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "7-geography-6",
+          "chapter": "Natural Vegetation and Wildlife",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 7",
+          "overview": "This chapter covers Natural Vegetation and Wildlife as part of the Class 7 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Natural Vegetation and Wildlife.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Natural Vegetation and Wildlife",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Natural Vegetation and Wildlife is a Class 7 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Natural Vegetation and Wildlife. In Class 7 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "7-geography-7",
+          "chapter": "Human Environment: Settlement, Transport and Communication",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 7",
+          "overview": "This chapter covers Human Environment: Settlement, Transport and Communication as part of the Class 7 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Human Environment: Settlement, Transport and Communication.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Human Environment: Settlement, Transport and Communication",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Human Environment: Settlement, Transport and Communication is a Class 7 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Human Environment: Settlement, Transport and Communication. In Class 7 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "7-geography-8",
+          "chapter": "Human Environment Interactions: The Tropical and the Subtropical Region",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 7",
+          "overview": "This chapter covers Human Environment Interactions: The Tropical and the Subtropical Region as part of the Class 7 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Human Environment Interactions: The Tropical and the Subtropical Region.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Human Environment Interactions: The Tropical and the Subtropical Region",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Human Environment Interactions: The Tropical and the Subtropical Region is a Class 7 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Human Environment Interactions: The Tropical and the Subtropical Region. In Class 7 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "7-geography-9",
+          "chapter": "Life in the Deserts",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 7",
+          "overview": "This chapter covers Life in the Deserts as part of the Class 7 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Life in the Deserts.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Life in the Deserts",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Life in the Deserts is a Class 7 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Life in the Deserts. In Class 7 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "7-civics-1",
+          "chapter": "On Equality",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers On Equality as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from On Equality.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in On Equality",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "On Equality is a Class 7 Civics chapter that focuses on citizenship, fairness, and the social questions that shape public life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to inclusion and equality, social identity, and justice in everyday life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners think critically about respect, opportunity, and participation. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of On Equality. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "7-civics-2",
+          "chapter": "Role of the Government in Health",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers Role of the Government in Health as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Role of the Government in Health.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Role of the Government in Health",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Role of the Government in Health is a Class 7 Civics chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Role of the Government in Health. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "7-civics-3",
+          "chapter": "How the State Government Works",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers How the State Government Works as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from How the State Government Works.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in How the State Government Works",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "How the State Government Works is a Class 7 Civics chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of How the State Government Works. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "7-civics-4",
+          "chapter": "Growing Up as Boys and Girls",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers Growing Up as Boys and Girls as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Growing Up as Boys and Girls.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Growing Up as Boys and Girls",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Growing Up as Boys and Girls is a Class 7 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Growing Up as Boys and Girls. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "7-civics-5",
+          "chapter": "Women Change the World",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers Women Change the World as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Women Change the World.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Women Change the World",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Women Change the World is a Class 7 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Women Change the World. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "7-civics-6",
+          "chapter": "Understanding Media",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers Understanding Media as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Understanding Media.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Understanding Media",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Understanding Media is a Class 7 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Understanding Media. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "7-civics-7",
+          "chapter": "Understanding Advertising",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers Understanding Advertising as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Understanding Advertising.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Understanding Advertising",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Understanding Advertising is a Class 7 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Understanding Advertising. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "7-civics-8",
+          "chapter": "Markets Around Us",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers Markets Around Us as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Markets Around Us.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Markets Around Us",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Markets Around Us is a Class 7 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Markets Around Us. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "7-civics-9",
+          "chapter": "A Shirt in the Market",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers A Shirt in the Market as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from A Shirt in the Market.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in A Shirt in the Market",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "A Shirt in the Market is a Class 7 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of A Shirt in the Market. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "7-civics-10",
+          "chapter": "Struggles for Equality",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 7",
+          "overview": "This chapter covers Struggles for Equality as part of the Class 7 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Struggles for Equality.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Struggles for Equality",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Struggles for Equality is a Class 7 Civics chapter that focuses on citizenship, fairness, and the social questions that shape public life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to inclusion and equality, social identity, and justice in everyday life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners think critically about respect, opportunity, and participation. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Struggles for Equality. In Class 7 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
             }
           ]
         }

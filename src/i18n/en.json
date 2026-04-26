@@ -179,6 +179,7 @@
   "tutor": {
     "grade": "Class",
     "subject": "Subject",
+    "chapter": "Chapter",
     "diagnostic": "Diagnostic Quiz",
     "startDiagnostic": "Start Diagnostic",
     "nextQuestion": "Get Next Question",

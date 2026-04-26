@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Section from "../components/Section";
+import OfficialLearningPath from "../components/OfficialLearningPath";
 import { clearAuth, getUser } from "../data/auth";
 import { requestDoubtSolve } from "../data/api";
 import { languageOptions } from "../data/languages";
@@ -246,6 +247,7 @@ const StudentHub = () => {
         language: languageLabel,
         grade: authUser.grade || "6",
         subject,
+        chapter: activeChapter?.title || "",
         question: prompt,
         history: []
       });
@@ -269,6 +271,7 @@ const StudentHub = () => {
         language: languageLabel,
         grade: authUser.grade || "6",
         subject,
+        chapter: activeChapter?.title || "",
         question: doubtInput,
         history: []
       });
@@ -354,8 +357,10 @@ const StudentHub = () => {
         </div>
       </div>
 
+      <OfficialLearningPath user={authUser} onActivitySaved={loadStudentData} />
+
       <div className="section">
-        <h3>{t("student.assignedChapters")}</h3>
+        <h3>Teacher Assigned Practice</h3>
         {assignedChapters.length === 0 ? (
           <p className="muted">{t("student.noAssignments")}</p>
         ) : (

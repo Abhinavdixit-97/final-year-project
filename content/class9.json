@@ -1,71 +1,540 @@
 {
-  "class": 9,
+  "class": "9",
+  "board": "CBSE",
+  "basis": "Official CBSE curriculum with NCERT-aligned chapter and unit structure for supported subjects in this app.",
+  "generatedAt": "2026-04-16T17:37:43.334Z",
+  "sourceLinks": {
+    "cbseCurriculum2026_27": "https://cbseacademic.nic.in/curriculum_2027.html",
+    "cbseCurriculum2025_26": "https://cbseacademic.nic.in/curriculum_2026.html",
+    "ncertTextbooks": "https://ncert.nic.in/textbook.php?ln=en"
+  },
   "subjects": [
     {
       "name": "Mathematics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
-          "chapter": "Algebra",
-          "topics": [
+          "id": "9-mathematics-1",
+          "chapter": "Number Systems",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Number Systems as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Number Systems.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Number Systems",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Number Systems is a Class 9 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Linear Equations",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Solve for x: 2x + 3 = 11","options":["2","3","4","5"],"answer":"4"},
-                {"type":"mcq","question":"If x - 5 = 10, x = ?","options":["10","15","5","20"],"answer":"15"},
-                {"type":"fill_blank","question":"x + 7 = 12, x = ___","answer":"5"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Number Systems. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
-          "chapter": "Geometry",
-          "topics": [
+          "id": "9-mathematics-2",
+          "chapter": "Polynomials",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Polynomials as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Polynomials.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Polynomials",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Polynomials is a Class 9 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Triangles",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Sum of angles in a triangle?","options":["180°","90°","360°","270°"],"answer":"180°"},
-                {"type":"mcq","question":"Right triangle has which angle?","options":["90°","60°","45°","30°"],"answer":"90°"},
-                {"type":"fill_blank","question":"Equilateral triangle all angles = ___°","answer":"60"}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "English",
-      "chapters": [
-        {
-          "chapter": "Grammar",
-          "topics": [
+              "title": "What to read first",
+              "text": "Start with the main idea of Polynomials. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
             {
-              "topic": "Tenses",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"He ___ to school every day.","options":["go","goes","went","going"],"answer":"goes"},
-                {"type":"mcq","question":"I ___ my homework yesterday.","options":["do","did","done","doing"],"answer":"did"},
-                {"type":"fill_blank","question":"She ___ reading a book now.","answer":"is"}
-              ]
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
-          "chapter": "Vocabulary",
-          "topics": [
+          "id": "9-mathematics-3",
+          "chapter": "Coordinate Geometry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Coordinate Geometry as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Coordinate Geometry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Coordinate Geometry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Coordinate Geometry is a Class 9 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Synonyms and Antonyms",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Synonym of 'Big'?","options":["Large","Small","Tiny","Short"],"answer":"Large"},
-                {"type":"mcq","question":"Opposite of 'Happy'?","options":["Sad","Glad","Joyful","Cheerful"],"answer":"Sad"},
-                {"type":"fill_blank","question":"Synonym of 'Fast' is ___","answer":"Quick"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Coordinate Geometry. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-4",
+          "chapter": "Linear Equations in Two Variables",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Linear Equations in Two Variables as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Linear Equations in Two Variables.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Linear Equations in Two Variables",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Linear Equations in Two Variables is a Class 9 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Linear Equations in Two Variables. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-5",
+          "chapter": "Introduction to Euclid's Geometry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Introduction to Euclid's Geometry as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Introduction to Euclid's Geometry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Introduction to Euclid's Geometry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Introduction to Euclid's Geometry is a Class 9 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Introduction to Euclid's Geometry. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-6",
+          "chapter": "Lines and Angles",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Lines and Angles as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Lines and Angles.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Lines and Angles",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Lines and Angles is a Class 9 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Lines and Angles. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-7",
+          "chapter": "Triangles",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Triangles as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Triangles.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Triangles",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Triangles is a Class 9 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Triangles. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-8",
+          "chapter": "Quadrilaterals",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Quadrilaterals as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Quadrilaterals.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Quadrilaterals",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Quadrilaterals is a Class 9 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Quadrilaterals. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-9",
+          "chapter": "Areas of Parallelograms and Triangles",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Areas of Parallelograms and Triangles as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Areas of Parallelograms and Triangles.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Areas of Parallelograms and Triangles",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Areas of Parallelograms and Triangles is a Class 9 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Areas of Parallelograms and Triangles. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-10",
+          "chapter": "Circles",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Circles as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Circles.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Circles",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Circles is a Class 9 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Circles. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-11",
+          "chapter": "Constructions",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Constructions as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Constructions.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Constructions",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Constructions is a Class 9 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Constructions. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-12",
+          "chapter": "Heron's Formula",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Heron's Formula as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Heron's Formula.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Heron's Formula",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Heron's Formula is a Class 9 Mathematics chapter that focuses on the main ideas introduced in Heron's Formula. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Heron's Formula. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-13",
+          "chapter": "Surface Areas and Volumes",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Surface Areas and Volumes as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Surface Areas and Volumes.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Surface Areas and Volumes",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Surface Areas and Volumes is a Class 9 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Surface Areas and Volumes. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-14",
+          "chapter": "Statistics",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Statistics as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Statistics.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Statistics",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Statistics is a Class 9 Mathematics chapter that focuses on collecting, organising, and interpreting information. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to tables and graphs, patterns in data, and chance and likelihood. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read information carefully and make sensible conclusions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Statistics. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "9-mathematics-15",
+          "chapter": "Probability",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 9",
+          "overview": "This chapter covers Probability as part of the Class 9 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Probability.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Probability",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Probability is a Class 9 Mathematics chapter that focuses on collecting, organising, and interpreting information. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to tables and graphs, patterns in data, and chance and likelihood. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read information carefully and make sensible conclusions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Probability. In Class 9 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         }
@@ -73,34 +542,1219 @@
     },
     {
       "name": "Science",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
-          "chapter": "Physics",
-          "topics": [
+          "id": "9-science-1",
+          "chapter": "Matter in Our Surroundings",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Matter in Our Surroundings as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Matter in Our Surroundings.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Matter in Our Surroundings",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Matter in Our Surroundings is a Class 9 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Force and Motion",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Force is measured in?","options":["Newton","Meter","Kg","Joule"],"answer":"Newton"},
-                {"type":"mcq","question":"Acceleration is change in?","options":["Velocity","Speed","Distance","Time"],"answer":"Velocity"},
-                {"type":"fill_blank","question":"Motion of objects due to gravity is called ___","answer":"Free fall"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Matter in Our Surroundings. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
             }
           ]
         },
         {
-          "chapter": "Biology",
-          "topics": [
+          "id": "9-science-2",
+          "chapter": "Is Matter Around Us Pure",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Is Matter Around Us Pure as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Is Matter Around Us Pure.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Is Matter Around Us Pure",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Is Matter Around Us Pure is a Class 9 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Cell Structure",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Basic unit of life?","options":["Cell","Atom","Molecule","Organ"],"answer":"Cell"},
-                {"type":"mcq","question":"Plant cells have?","options":["Cell wall","Cell membrane","No nucleus","None"],"answer":"Cell wall"},
-                {"type":"fill_blank","question":"Nucleus controls ___ of a cell","answer":"activities"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Is Matter Around Us Pure. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-3",
+          "chapter": "Atoms and Molecules",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Atoms and Molecules as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Atoms and Molecules.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Atoms and Molecules",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Atoms and Molecules is a Class 9 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Atoms and Molecules. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-4",
+          "chapter": "Structure of the Atom",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Structure of the Atom as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Structure of the Atom.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Structure of the Atom",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Structure of the Atom is a Class 9 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Structure of the Atom. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-5",
+          "chapter": "The Fundamental Unit of Life",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers The Fundamental Unit of Life as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Fundamental Unit of Life.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from The Fundamental Unit of Life",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "The Fundamental Unit of Life is a Class 9 Science chapter that focuses on the main ideas introduced in The Fundamental Unit of Life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Fundamental Unit of Life. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-6",
+          "chapter": "Tissues",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Tissues as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Tissues.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Tissues",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Tissues is a Class 9 Science chapter that focuses on life processes, living systems, and continuity of life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to structure and function, growth and survival, and interaction within living systems. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students understand how living things function, adapt, and remain connected to the environment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Tissues. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-7",
+          "chapter": "Motion",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Motion as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Motion.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Motion",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Motion is a Class 9 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Motion. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-8",
+          "chapter": "Force and Laws of Motion",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Force and Laws of Motion as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Force and Laws of Motion.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Force and Laws of Motion",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Force and Laws of Motion is a Class 9 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Force and Laws of Motion. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-9",
+          "chapter": "Gravitation",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Gravitation as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Gravitation.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Gravitation",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Gravitation is a Class 9 Science chapter that focuses on the main ideas introduced in Gravitation. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Gravitation. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-10",
+          "chapter": "Work and Energy",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Work and Energy as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Work and Energy.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Work and Energy",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Work and Energy is a Class 9 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Work and Energy. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-11",
+          "chapter": "Sound",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Sound as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Sound.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Sound",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Sound is a Class 9 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Sound. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-12",
+          "chapter": "Why Do We Fall Ill",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Why Do We Fall Ill as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Why Do We Fall Ill.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Why Do We Fall Ill",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Why Do We Fall Ill is a Class 9 Science chapter that focuses on the main ideas introduced in Why Do We Fall Ill. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Why Do We Fall Ill. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-13",
+          "chapter": "Natural Resources",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Natural Resources as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Natural Resources.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Natural Resources",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Natural Resources is a Class 9 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Natural Resources. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "9-science-14",
+          "chapter": "Improvement in Food Resources",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 9",
+          "overview": "This chapter covers Improvement in Food Resources as part of the Class 9 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Improvement in Food Resources.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Improvement in Food Resources",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Improvement in Food Resources is a Class 9 Science chapter that focuses on how living bodies get energy, grow, and stay healthy. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to body needs, functions of important components, and health and balance. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "These ideas help students connect science with food habits, fitness, and care of the body. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Improvement in Food Resources. In Class 9 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "9-history-1",
+          "chapter": "The French Revolution",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 9",
+          "overview": "This chapter covers The French Revolution as part of the Class 9 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The French Revolution.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in The French Revolution",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "The French Revolution is a Class 9 History chapter that focuses on major historical change, resistance, and the making of modern societies. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to causes and consequences, people and movements, and historical interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps students see how ideas and struggles shaped society over time. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The French Revolution. In Class 9 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "9-history-2",
+          "chapter": "Socialism in Europe and the Russian Revolution",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 9",
+          "overview": "This chapter covers Socialism in Europe and the Russian Revolution as part of the Class 9 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Socialism in Europe and the Russian Revolution.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Socialism in Europe and the Russian Revolution",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Socialism in Europe and the Russian Revolution is a Class 9 History chapter that focuses on major historical change, resistance, and the making of modern societies. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to causes and consequences, people and movements, and historical interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps students see how ideas and struggles shaped society over time. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Socialism in Europe and the Russian Revolution. In Class 9 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "9-history-3",
+          "chapter": "Nazism and the Rise of Hitler",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 9",
+          "overview": "This chapter covers Nazism and the Rise of Hitler as part of the Class 9 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Nazism and the Rise of Hitler.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Nazism and the Rise of Hitler",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Nazism and the Rise of Hitler is a Class 9 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Nazism and the Rise of Hitler. In Class 9 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "9-history-4",
+          "chapter": "Forest Society and Colonialism",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 9",
+          "overview": "This chapter covers Forest Society and Colonialism as part of the Class 9 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Forest Society and Colonialism.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Forest Society and Colonialism",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Forest Society and Colonialism is a Class 9 History chapter that focuses on major historical change, resistance, and the making of modern societies. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to causes and consequences, people and movements, and historical interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps students see how ideas and struggles shaped society over time. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Forest Society and Colonialism. In Class 9 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "9-history-5",
+          "chapter": "Pastoralists in the Modern World",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 9",
+          "overview": "This chapter covers Pastoralists in the Modern World as part of the Class 9 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Pastoralists in the Modern World.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Pastoralists in the Modern World",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Pastoralists in the Modern World is a Class 9 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Pastoralists in the Modern World. In Class 9 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "9-geography-1",
+          "chapter": "India: Size and Location",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 9",
+          "overview": "This chapter covers India: Size and Location as part of the Class 9 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from India: Size and Location.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in India: Size and Location",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "India: Size and Location is a Class 9 Geography chapter that focuses on the Earth as a place that can be observed, located, and represented. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to location and direction, maps and models, and spatial understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read the world carefully and connect places with patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of India: Size and Location. In Class 9 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "9-geography-2",
+          "chapter": "Physical Features of India",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 9",
+          "overview": "This chapter covers Physical Features of India as part of the Class 9 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Physical Features of India.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Physical Features of India",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Physical Features of India is a Class 9 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Physical Features of India. In Class 9 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "9-geography-3",
+          "chapter": "Drainage",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 9",
+          "overview": "This chapter covers Drainage as part of the Class 9 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Drainage.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Drainage",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Drainage is a Class 9 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Drainage. In Class 9 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "9-geography-4",
+          "chapter": "Climate",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 9",
+          "overview": "This chapter covers Climate as part of the Class 9 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Climate.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Climate",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Climate is a Class 9 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Climate. In Class 9 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "9-geography-5",
+          "chapter": "Natural Vegetation and Wild Life",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 9",
+          "overview": "This chapter covers Natural Vegetation and Wild Life as part of the Class 9 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Natural Vegetation and Wild Life.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Natural Vegetation and Wild Life",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Natural Vegetation and Wild Life is a Class 9 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Natural Vegetation and Wild Life. In Class 9 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "9-geography-6",
+          "chapter": "Population",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 9",
+          "overview": "This chapter covers Population as part of the Class 9 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Population.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Population",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Population is a Class 9 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Population. In Class 9 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Political Science",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "9-political-science-1",
+          "chapter": "What Is Democracy? Why Democracy?",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 9",
+          "overview": "This chapter covers What Is Democracy? Why Democracy? as part of the Class 9 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from What Is Democracy? Why Democracy?.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in What Is Democracy? Why Democracy?",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "What Is Democracy? Why Democracy? is a Class 9 Political Science chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of What Is Democracy? Why Democracy?. In Class 9 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        },
+        {
+          "id": "9-political-science-2",
+          "chapter": "Constitutional Design",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 9",
+          "overview": "This chapter covers Constitutional Design as part of the Class 9 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Constitutional Design.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Constitutional Design",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Constitutional Design is a Class 9 Political Science chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Constitutional Design. In Class 9 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        },
+        {
+          "id": "9-political-science-3",
+          "chapter": "Electoral Politics",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 9",
+          "overview": "This chapter covers Electoral Politics as part of the Class 9 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Electoral Politics.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Electoral Politics",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Electoral Politics is a Class 9 Political Science chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Electoral Politics. In Class 9 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        },
+        {
+          "id": "9-political-science-4",
+          "chapter": "Working of Institutions",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 9",
+          "overview": "This chapter covers Working of Institutions as part of the Class 9 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Working of Institutions.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Working of Institutions",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Working of Institutions is a Class 9 Political Science chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Working of Institutions. In Class 9 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        },
+        {
+          "id": "9-political-science-5",
+          "chapter": "Democratic Rights",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 9",
+          "overview": "This chapter covers Democratic Rights as part of the Class 9 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Democratic Rights.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Democratic Rights",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Democratic Rights is a Class 9 Political Science chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Democratic Rights. In Class 9 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "9-economics-1",
+          "chapter": "The Story of Village Palampur",
+          "officialReference": "CBSE/NCERT aligned Economics structure for Class 9",
+          "overview": "This chapter covers The Story of Village Palampur as part of the Class 9 Economics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Story of Village Palampur.",
+            "Build confidence in Economics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Core terms in The Story of Village Palampur",
+            "Real-world applications",
+            "Decision making and practice questions"
+          ],
+          "readingPassages": [
+            "The Story of Village Palampur is a Class 9 Economics chapter that focuses on development, livelihoods, and the conditions that affect people’s economic well-being. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to production and work, opportunity and welfare, and economic challenges and policy. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The reading encourages learners to connect economic ideas with real social conditions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Story of Village Palampur. In Class 9 Economics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, connect concepts with everyday choices, read examples and case situations, explain economic ideas in practical language. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember definitions, examples, and how the concept appears in real life."
+            }
+          ]
+        },
+        {
+          "id": "9-economics-2",
+          "chapter": "People as Resource",
+          "officialReference": "CBSE/NCERT aligned Economics structure for Class 9",
+          "overview": "This chapter covers People as Resource as part of the Class 9 Economics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from People as Resource.",
+            "Build confidence in Economics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Core terms in People as Resource",
+            "Real-world applications",
+            "Decision making and practice questions"
+          ],
+          "readingPassages": [
+            "People as Resource is a Class 9 Economics chapter that focuses on development, livelihoods, and the conditions that affect people’s economic well-being. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to production and work, opportunity and welfare, and economic challenges and policy. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The reading encourages learners to connect economic ideas with real social conditions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of People as Resource. In Class 9 Economics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, connect concepts with everyday choices, read examples and case situations, explain economic ideas in practical language. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember definitions, examples, and how the concept appears in real life."
+            }
+          ]
+        },
+        {
+          "id": "9-economics-3",
+          "chapter": "Poverty as a Challenge",
+          "officialReference": "CBSE/NCERT aligned Economics structure for Class 9",
+          "overview": "This chapter covers Poverty as a Challenge as part of the Class 9 Economics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Poverty as a Challenge.",
+            "Build confidence in Economics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Core terms in Poverty as a Challenge",
+            "Real-world applications",
+            "Decision making and practice questions"
+          ],
+          "readingPassages": [
+            "Poverty as a Challenge is a Class 9 Economics chapter that focuses on development, livelihoods, and the conditions that affect people’s economic well-being. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to production and work, opportunity and welfare, and economic challenges and policy. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The reading encourages learners to connect economic ideas with real social conditions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Poverty as a Challenge. In Class 9 Economics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, connect concepts with everyday choices, read examples and case situations, explain economic ideas in practical language. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember definitions, examples, and how the concept appears in real life."
+            }
+          ]
+        },
+        {
+          "id": "9-economics-4",
+          "chapter": "Food Security in India",
+          "officialReference": "CBSE/NCERT aligned Economics structure for Class 9",
+          "overview": "This chapter covers Food Security in India as part of the Class 9 Economics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Food Security in India.",
+            "Build confidence in Economics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Core terms in Food Security in India",
+            "Real-world applications",
+            "Decision making and practice questions"
+          ],
+          "readingPassages": [
+            "Food Security in India is a Class 9 Economics chapter that focuses on development, livelihoods, and the conditions that affect people’s economic well-being. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to production and work, opportunity and welfare, and economic challenges and policy. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The reading encourages learners to connect economic ideas with real social conditions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Food Security in India. In Class 9 Economics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, connect concepts with everyday choices, read examples and case situations, explain economic ideas in practical language. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember definitions, examples, and how the concept appears in real life."
             }
           ]
         }

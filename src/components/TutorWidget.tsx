@@ -1,8 +1,9 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { diagnosticBank } from "../data/diagnosticQuestions";
 import { languageOptions } from "../data/languages";
 import {
+  fetchChapterCatalog,
   requestDoubtSolve,
   requestLevelAnalysis,
   requestNextQuestion,
@@ -33,6 +34,8 @@ const TutorWidget = () => {
   const { t, i18n } = useTranslation();
   const [grade, setGrade] = useState("6");
   const [subject, setSubject] = useState("Math");
+  const [chapter, setChapter] = useState("");
+  const [chapterOptions, setChapterOptions] = useState<string[]>([]);
   const [diagnosticIndex, setDiagnosticIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState("");
   const [diagnosticAnswers, setDiagnosticAnswers] = useState<
@@ -53,6 +56,20 @@ const TutorWidget = () => {
   const [doubtInput, setDoubtInput] = useState("");
   const [attempts, setAttempts] = useState(() => loadAttempts());
   const [questionStart, setQuestionStart] = useState<number | null>(null);
+
+  useEffect(() => {
+    setChapter("");
+    setChapterOptions([]);
+    fetchChapterCatalog(grade).then((catalog) => {
+      const found = catalog.subjects.find((s) => s.name === subject);
+      const chapters = found ? found.chapters.map((c) => c.chapter) : [];
+      setChapterOptions(chapters);
+      setChapter(chapters[0] || "");
+    }).catch(() => {
+      setChapterOptions([]);
+      setChapter("");
+    });
+  }, [grade, subject]);
 
   const diagnosticQuestions = useMemo(() => {
     return diagnosticBank[subject] || diagnosticBank.Math;
@@ -108,6 +125,7 @@ const TutorWidget = () => {
         language: languageLabel,
         grade,
         subject,
+        chapter,
         diagnosticAnswers: nextAnswers
       });
       setLevel(result.level || "beginner");
@@ -142,6 +160,7 @@ const TutorWidget = () => {
         language: languageLabel,
         grade,
         subject,
+        chapter,
         level,
         history
       });
@@ -197,6 +216,7 @@ const TutorWidget = () => {
         language: languageLabel,
         grade,
         subject,
+        chapter,
         question: userMessage.content,
         history: updatedHistory
       });
@@ -238,6 +258,17 @@ const TutorWidget = () => {
                 {value}
               </option>
             ))}
+          </select>
+        </label>
+        <label>
+          {t("tutor.chapter")}
+          <select value={chapter} onChange={(e) => setChapter(e.target.value)} disabled={chapterOptions.length === 0}>
+            {chapterOptions.length === 0
+              ? <option value="">Loading...</option>
+              : chapterOptions.map((c) => (
+                  <option key={c} value={c}>{c}</option>
+                ))
+            }
           </select>
         </label>
         <div>

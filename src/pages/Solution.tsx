@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Section from "../components/Section";
 import TutorWidget from "../components/TutorWidget";
+import ChapterSummaryPanel from "../components/ChapterSummaryPanel";
 
 const Solution = () => {
   const { t } = useTranslation();
@@ -25,6 +26,10 @@ const Solution = () => {
 
       <Section title={t("solution.tutorTitle")}>
         <TutorWidget />
+      </Section>
+
+      <Section title="Chapter Summary Assistant">
+        <ChapterSummaryPanel />
       </Section>
     </>
   );

@@ -1,71 +1,540 @@
 {
-  "class": 10,
+  "class": "10",
+  "board": "CBSE",
+  "basis": "Official CBSE curriculum with NCERT-aligned chapter and unit structure for supported subjects in this app.",
+  "generatedAt": "2026-04-16T17:37:43.337Z",
+  "sourceLinks": {
+    "cbseCurriculum2026_27": "https://cbseacademic.nic.in/curriculum_2027.html",
+    "cbseCurriculum2025_26": "https://cbseacademic.nic.in/curriculum_2026.html",
+    "ncertTextbooks": "https://ncert.nic.in/textbook.php?ln=en"
+  },
   "subjects": [
     {
       "name": "Mathematics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
-          "chapter": "Algebra",
-          "topics": [
+          "id": "10-mathematics-1",
+          "chapter": "Real Numbers",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Real Numbers as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Real Numbers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Real Numbers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Real Numbers is a Class 10 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Quadratic Equations",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Solve: x^2 - 5x + 6 = 0","options":["2,3","1,6","-2,-3","3,5"],"answer":"2,3"},
-                {"type":"mcq","question":"Quadratic equation has degree?","options":["2","1","3","4"],"answer":"2"},
-                {"type":"fill_blank","question":"Roots of x^2 + 7x + 12 = 0 are ___","answer":"-3,-4"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Real Numbers. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
-          "chapter": "Geometry",
-          "topics": [
+          "id": "10-mathematics-2",
+          "chapter": "Polynomials",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Polynomials as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Polynomials.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Polynomials",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Polynomials is a Class 10 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Circles",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Radius of a circle is?","options":["Distance from center to any point on circle","Diameter","Circumference","Area"],"answer":"Distance from center to any point on circle"},
-                {"type":"mcq","question":"Diameter = ?","options":["2 × Radius","Radius /2","π × Radius","None"],"answer":"2 × Radius"},
-                {"type":"fill_blank","question":"Circumference of circle = 2 × π × ___","answer":"Radius"}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "English",
-      "chapters": [
-        {
-          "chapter": "Grammar",
-          "topics": [
+              "title": "What to read first",
+              "text": "Start with the main idea of Polynomials. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
             {
-              "topic": "Active & Passive Voice",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Active: She writes a letter → Passive?","options":["A letter is written by her","She is written a letter","Letter writes she","Her writes letter"],"answer":"A letter is written by her"},
-                {"type":"mcq","question":"Passive: The cake was baked by her → Active?","options":["She baked the cake","The cake baked she","Cake was she baked","None"],"answer":"She baked the cake"},
-                {"type":"fill_blank","question":"Active: I clean the room → Passive: ___","answer":"The room is cleaned by me"}
-              ]
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
-          "chapter": "Vocabulary",
-          "topics": [
+          "id": "10-mathematics-3",
+          "chapter": "Pair of Linear Equations in Two Variables",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Pair of Linear Equations in Two Variables as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Pair of Linear Equations in Two Variables.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Pair of Linear Equations in Two Variables",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Pair of Linear Equations in Two Variables is a Class 10 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Idioms & Phrases",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Meaning of 'Break a leg'?","options":["Good luck","Injure","Run fast","Dance"],"answer":"Good luck"},
-                {"type":"mcq","question":"Meaning of 'Piece of cake'?","options":["Easy task","Dessert","Difficult","Sweet"],"answer":"Easy task"},
-                {"type":"fill_blank","question":"Meaning of 'Hit the sack' is ___","answer":"Go to sleep"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Pair of Linear Equations in Two Variables. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-4",
+          "chapter": "Quadratic Equations",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Quadratic Equations as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Quadratic Equations.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Quadratic Equations",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Quadratic Equations is a Class 10 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Quadratic Equations. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-5",
+          "chapter": "Arithmetic Progressions",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Arithmetic Progressions as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Arithmetic Progressions.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Arithmetic Progressions",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Arithmetic Progressions is a Class 10 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Arithmetic Progressions. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-6",
+          "chapter": "Triangles",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Triangles as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Triangles.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Triangles",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Triangles is a Class 10 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Triangles. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-7",
+          "chapter": "Coordinate Geometry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Coordinate Geometry as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Coordinate Geometry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Coordinate Geometry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Coordinate Geometry is a Class 10 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Coordinate Geometry. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-8",
+          "chapter": "Introduction to Trigonometry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Introduction to Trigonometry as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Introduction to Trigonometry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Introduction to Trigonometry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Introduction to Trigonometry is a Class 10 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Introduction to Trigonometry. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-9",
+          "chapter": "Some Applications of Trigonometry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Some Applications of Trigonometry as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Some Applications of Trigonometry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Some Applications of Trigonometry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Some Applications of Trigonometry is a Class 10 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Some Applications of Trigonometry. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-10",
+          "chapter": "Circles",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Circles as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Circles.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Circles",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Circles is a Class 10 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Circles. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-11",
+          "chapter": "Constructions",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Constructions as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Constructions.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Constructions",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Constructions is a Class 10 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Constructions. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-12",
+          "chapter": "Areas Related to Circles",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Areas Related to Circles as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Areas Related to Circles.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Areas Related to Circles",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Areas Related to Circles is a Class 10 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Areas Related to Circles. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-13",
+          "chapter": "Surface Areas and Volumes",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Surface Areas and Volumes as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Surface Areas and Volumes.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Surface Areas and Volumes",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Surface Areas and Volumes is a Class 10 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Surface Areas and Volumes. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-14",
+          "chapter": "Statistics",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Statistics as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Statistics.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Statistics",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Statistics is a Class 10 Mathematics chapter that focuses on collecting, organising, and interpreting information. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to tables and graphs, patterns in data, and chance and likelihood. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read information carefully and make sensible conclusions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Statistics. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "10-mathematics-15",
+          "chapter": "Probability",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 10",
+          "overview": "This chapter covers Probability as part of the Class 10 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Probability.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Probability",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Probability is a Class 10 Mathematics chapter that focuses on collecting, organising, and interpreting information. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to tables and graphs, patterns in data, and chance and likelihood. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read information carefully and make sensible conclusions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Probability. In Class 10 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         }
@@ -73,34 +542,1359 @@
     },
     {
       "name": "Science",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
-          "chapter": "Physics",
-          "topics": [
+          "id": "10-science-1",
+          "chapter": "Chemical Reactions and Equations",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Chemical Reactions and Equations as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Chemical Reactions and Equations.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Chemical Reactions and Equations",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Chemical Reactions and Equations is a Class 10 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Work, Energy & Power",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Unit of Work?","options":["Joule","Newton","Watt","Meter"],"answer":"Joule"},
-                {"type":"mcq","question":"Power = Work/___","options":["Time","Force","Distance","Velocity"],"answer":"Time"},
-                {"type":"fill_blank","question":"Kinetic energy formula: 1/2 × m × ___^2","answer":"v"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Chemical Reactions and Equations. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
             }
           ]
         },
         {
-          "chapter": "Biology",
-          "topics": [
+          "id": "10-science-2",
+          "chapter": "Acids, Bases and Salts",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Acids, Bases and Salts as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Acids, Bases and Salts.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Acids, Bases and Salts",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Acids, Bases and Salts is a Class 10 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Human Anatomy",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Heart pumps?","options":["Blood","Air","Water","Food"],"answer":"Blood"},
-                {"type":"mcq","question":"Largest human organ?","options":["Skin","Liver","Brain","Heart"],"answer":"Skin"},
-                {"type":"fill_blank","question":"Human lungs are used for ___","answer":"Breathing"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Acids, Bases and Salts. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-3",
+          "chapter": "Metals and Non-metals",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Metals and Non-metals as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Metals and Non-metals.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Metals and Non-metals",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Metals and Non-metals is a Class 10 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Metals and Non-metals. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-4",
+          "chapter": "Carbon and Its Compounds",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Carbon and Its Compounds as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Carbon and Its Compounds.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Carbon and Its Compounds",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Carbon and Its Compounds is a Class 10 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Carbon and Its Compounds. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-5",
+          "chapter": "Periodic Classification of Elements",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Periodic Classification of Elements as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Periodic Classification of Elements.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Periodic Classification of Elements",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Periodic Classification of Elements is a Class 10 Science chapter that focuses on the main ideas introduced in Periodic Classification of Elements. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Periodic Classification of Elements. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-6",
+          "chapter": "Life Processes",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Life Processes as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Life Processes.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Life Processes",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Life Processes is a Class 10 Science chapter that focuses on the main ideas introduced in Life Processes. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Life Processes. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-7",
+          "chapter": "Control and Coordination",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Control and Coordination as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Control and Coordination.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Control and Coordination",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Control and Coordination is a Class 10 Science chapter that focuses on the main ideas introduced in Control and Coordination. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Control and Coordination. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-8",
+          "chapter": "How Do Organisms Reproduce?",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers How Do Organisms Reproduce? as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from How Do Organisms Reproduce?.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from How Do Organisms Reproduce?",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "How Do Organisms Reproduce? is a Class 10 Science chapter that focuses on life processes, living systems, and continuity of life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to structure and function, growth and survival, and interaction within living systems. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students understand how living things function, adapt, and remain connected to the environment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of How Do Organisms Reproduce?. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-9",
+          "chapter": "Heredity and Evolution",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Heredity and Evolution as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Heredity and Evolution.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Heredity and Evolution",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Heredity and Evolution is a Class 10 Science chapter that focuses on life processes, living systems, and continuity of life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to structure and function, growth and survival, and interaction within living systems. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students understand how living things function, adapt, and remain connected to the environment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Heredity and Evolution. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-10",
+          "chapter": "Light: Reflection and Refraction",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Light: Reflection and Refraction as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Light: Reflection and Refraction.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Light: Reflection and Refraction",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Light: Reflection and Refraction is a Class 10 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Light: Reflection and Refraction. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-11",
+          "chapter": "The Human Eye and the Colourful World",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers The Human Eye and the Colourful World as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Human Eye and the Colourful World.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from The Human Eye and the Colourful World",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "The Human Eye and the Colourful World is a Class 10 Science chapter that focuses on the main ideas introduced in The Human Eye and the Colourful World. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Human Eye and the Colourful World. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-12",
+          "chapter": "Electricity",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Electricity as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Electricity.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Electricity",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Electricity is a Class 10 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Electricity. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-13",
+          "chapter": "Magnetic Effects of Electric Current",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Magnetic Effects of Electric Current as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Magnetic Effects of Electric Current.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Magnetic Effects of Electric Current",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Magnetic Effects of Electric Current is a Class 10 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Magnetic Effects of Electric Current. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-14",
+          "chapter": "Our Environment",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Our Environment as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Our Environment.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Our Environment",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Our Environment is a Class 10 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Our Environment. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "10-science-15",
+          "chapter": "Sustainable Management of Natural Resources",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 10",
+          "overview": "This chapter covers Sustainable Management of Natural Resources as part of the Class 10 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Sustainable Management of Natural Resources.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Sustainable Management of Natural Resources",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Sustainable Management of Natural Resources is a Class 10 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Sustainable Management of Natural Resources. In Class 10 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "10-history-1",
+          "chapter": "The Rise of Nationalism in Europe",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 10",
+          "overview": "This chapter covers The Rise of Nationalism in Europe as part of the Class 10 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Rise of Nationalism in Europe.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in The Rise of Nationalism in Europe",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "The Rise of Nationalism in Europe is a Class 10 History chapter that focuses on major historical change, resistance, and the making of modern societies. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to causes and consequences, people and movements, and historical interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps students see how ideas and struggles shaped society over time. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Rise of Nationalism in Europe. In Class 10 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "10-history-2",
+          "chapter": "Nationalism in India",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 10",
+          "overview": "This chapter covers Nationalism in India as part of the Class 10 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Nationalism in India.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Nationalism in India",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Nationalism in India is a Class 10 History chapter that focuses on major historical change, resistance, and the making of modern societies. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to causes and consequences, people and movements, and historical interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps students see how ideas and struggles shaped society over time. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Nationalism in India. In Class 10 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "10-history-3",
+          "chapter": "The Making of a Global World",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 10",
+          "overview": "This chapter covers The Making of a Global World as part of the Class 10 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Making of a Global World.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in The Making of a Global World",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "The Making of a Global World is a Class 10 History chapter that focuses on political power, rule, and administration in the past. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rulers and institutions, expansion and control, and records of the past. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn that history is built from evidence, events, and changing forms of power. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Making of a Global World. In Class 10 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "10-history-4",
+          "chapter": "The Age of Industrialisation",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 10",
+          "overview": "This chapter covers The Age of Industrialisation as part of the Class 10 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Age of Industrialisation.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in The Age of Industrialisation",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "The Age of Industrialisation is a Class 10 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Age of Industrialisation. In Class 10 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "10-history-5",
+          "chapter": "Print Culture and the Modern World",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 10",
+          "overview": "This chapter covers Print Culture and the Modern World as part of the Class 10 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Print Culture and the Modern World.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Print Culture and the Modern World",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Print Culture and the Modern World is a Class 10 History chapter that focuses on ideas, culture, and the ways people expressed belief and identity. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to sources of history, cultural change, and everyday life and expression. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The reading encourages students to connect art, ideas, and social life with historical study. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Print Culture and the Modern World. In Class 10 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "10-geography-1",
+          "chapter": "Resources and Development",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 10",
+          "overview": "This chapter covers Resources and Development as part of the Class 10 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Resources and Development.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Resources and Development",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Resources and Development is a Class 10 Geography chapter that focuses on how humans use natural resources and organise economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to resource use, distribution and management, and human dependence on nature. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to think about sustainability, production, and responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Resources and Development. In Class 10 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "10-geography-2",
+          "chapter": "Forest and Wildlife Resources",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 10",
+          "overview": "This chapter covers Forest and Wildlife Resources as part of the Class 10 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Forest and Wildlife Resources.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Forest and Wildlife Resources",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Forest and Wildlife Resources is a Class 10 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Forest and Wildlife Resources. In Class 10 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "10-geography-3",
+          "chapter": "Water Resources",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 10",
+          "overview": "This chapter covers Water Resources as part of the Class 10 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Water Resources.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Water Resources",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Water Resources is a Class 10 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Water Resources. In Class 10 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "10-geography-4",
+          "chapter": "Agriculture",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 10",
+          "overview": "This chapter covers Agriculture as part of the Class 10 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Agriculture.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Agriculture",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Agriculture is a Class 10 Geography chapter that focuses on how humans use natural resources and organise economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to resource use, distribution and management, and human dependence on nature. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to think about sustainability, production, and responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Agriculture. In Class 10 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "10-geography-5",
+          "chapter": "Minerals and Energy Resources",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 10",
+          "overview": "This chapter covers Minerals and Energy Resources as part of the Class 10 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Minerals and Energy Resources.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Minerals and Energy Resources",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Minerals and Energy Resources is a Class 10 Geography chapter that focuses on how humans use natural resources and organise economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to resource use, distribution and management, and human dependence on nature. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to think about sustainability, production, and responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Minerals and Energy Resources. In Class 10 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "10-geography-6",
+          "chapter": "Manufacturing Industries",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 10",
+          "overview": "This chapter covers Manufacturing Industries as part of the Class 10 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Manufacturing Industries.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Manufacturing Industries",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Manufacturing Industries is a Class 10 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Manufacturing Industries. In Class 10 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "10-geography-7",
+          "chapter": "Lifelines of National Economy",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 10",
+          "overview": "This chapter covers Lifelines of National Economy as part of the Class 10 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Lifelines of National Economy.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Lifelines of National Economy",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Lifelines of National Economy is a Class 10 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Lifelines of National Economy. In Class 10 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Political Science",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "10-political-science-1",
+          "chapter": "Power Sharing",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 10",
+          "overview": "This chapter covers Power Sharing as part of the Class 10 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Power Sharing.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Power Sharing",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Power Sharing is a Class 10 Political Science chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Power Sharing. In Class 10 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        },
+        {
+          "id": "10-political-science-2",
+          "chapter": "Federalism",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 10",
+          "overview": "This chapter covers Federalism as part of the Class 10 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Federalism.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Federalism",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Federalism is a Class 10 Political Science chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Federalism. In Class 10 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        },
+        {
+          "id": "10-political-science-3",
+          "chapter": "Gender, Religion and Caste",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 10",
+          "overview": "This chapter covers Gender, Religion and Caste as part of the Class 10 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Gender, Religion and Caste.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Gender, Religion and Caste",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Gender, Religion and Caste is a Class 10 Political Science chapter that focuses on citizenship, fairness, and the social questions that shape public life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to inclusion and equality, social identity, and justice in everyday life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners think critically about respect, opportunity, and participation. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Gender, Religion and Caste. In Class 10 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        },
+        {
+          "id": "10-political-science-4",
+          "chapter": "Political Parties",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 10",
+          "overview": "This chapter covers Political Parties as part of the Class 10 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Political Parties.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Political Parties",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Political Parties is a Class 10 Political Science chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Political Parties. In Class 10 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        },
+        {
+          "id": "10-political-science-5",
+          "chapter": "Outcomes of Democracy",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 10",
+          "overview": "This chapter covers Outcomes of Democracy as part of the Class 10 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Outcomes of Democracy.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Outcomes of Democracy",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Outcomes of Democracy is a Class 10 Political Science chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Outcomes of Democracy. In Class 10 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        },
+        {
+          "id": "10-political-science-6",
+          "chapter": "Challenges to Democracy",
+          "officialReference": "CBSE/NCERT aligned Political Science structure for Class 10",
+          "overview": "This chapter covers Challenges to Democracy as part of the Class 10 Political Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Challenges to Democracy.",
+            "Build confidence in Political Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Challenges to Democracy",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Challenges to Democracy is a Class 10 Political Science chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Challenges to Democracy. In Class 10 Political Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand democratic systems, compare institutions and ideas, explain public issues with examples. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Review core terms, institutions, and how political ideas apply in practice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "10-economics-1",
+          "chapter": "Development",
+          "officialReference": "CBSE/NCERT aligned Economics structure for Class 10",
+          "overview": "This chapter covers Development as part of the Class 10 Economics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Development.",
+            "Build confidence in Economics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Core terms in Development",
+            "Real-world applications",
+            "Decision making and practice questions"
+          ],
+          "readingPassages": [
+            "Development is a Class 10 Economics chapter that focuses on development, livelihoods, and the conditions that affect people’s economic well-being. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to production and work, opportunity and welfare, and economic challenges and policy. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The reading encourages learners to connect economic ideas with real social conditions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Development. In Class 10 Economics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, connect concepts with everyday choices, read examples and case situations, explain economic ideas in practical language. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember definitions, examples, and how the concept appears in real life."
+            }
+          ]
+        },
+        {
+          "id": "10-economics-2",
+          "chapter": "Sectors of the Indian Economy",
+          "officialReference": "CBSE/NCERT aligned Economics structure for Class 10",
+          "overview": "This chapter covers Sectors of the Indian Economy as part of the Class 10 Economics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Sectors of the Indian Economy.",
+            "Build confidence in Economics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Core terms in Sectors of the Indian Economy",
+            "Real-world applications",
+            "Decision making and practice questions"
+          ],
+          "readingPassages": [
+            "Sectors of the Indian Economy is a Class 10 Economics chapter that focuses on how people produce, choose, and use resources. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to scarcity and choice, economic behaviour, and practical examples. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Economics helps students understand daily decisions and larger systems together. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Sectors of the Indian Economy. In Class 10 Economics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, connect concepts with everyday choices, read examples and case situations, explain economic ideas in practical language. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember definitions, examples, and how the concept appears in real life."
+            }
+          ]
+        },
+        {
+          "id": "10-economics-3",
+          "chapter": "Money and Credit",
+          "officialReference": "CBSE/NCERT aligned Economics structure for Class 10",
+          "overview": "This chapter covers Money and Credit as part of the Class 10 Economics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Money and Credit.",
+            "Build confidence in Economics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Core terms in Money and Credit",
+            "Real-world applications",
+            "Decision making and practice questions"
+          ],
+          "readingPassages": [
+            "Money and Credit is a Class 10 Economics chapter that focuses on how exchange, finance, and markets affect economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to decision making, flow of money, and connections between producers and consumers. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students relate the topic to saving, spending, trade, and everyday choices. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Money and Credit. In Class 10 Economics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, connect concepts with everyday choices, read examples and case situations, explain economic ideas in practical language. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember definitions, examples, and how the concept appears in real life."
+            }
+          ]
+        },
+        {
+          "id": "10-economics-4",
+          "chapter": "Globalisation and the Indian Economy",
+          "officialReference": "CBSE/NCERT aligned Economics structure for Class 10",
+          "overview": "This chapter covers Globalisation and the Indian Economy as part of the Class 10 Economics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Globalisation and the Indian Economy.",
+            "Build confidence in Economics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Core terms in Globalisation and the Indian Economy",
+            "Real-world applications",
+            "Decision making and practice questions"
+          ],
+          "readingPassages": [
+            "Globalisation and the Indian Economy is a Class 10 Economics chapter that focuses on how exchange, finance, and markets affect economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to decision making, flow of money, and connections between producers and consumers. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students relate the topic to saving, spending, trade, and everyday choices. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Globalisation and the Indian Economy. In Class 10 Economics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, connect concepts with everyday choices, read examples and case situations, explain economic ideas in practical language. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember definitions, examples, and how the concept appears in real life."
+            }
+          ]
+        },
+        {
+          "id": "10-economics-5",
+          "chapter": "Consumer Rights",
+          "officialReference": "CBSE/NCERT aligned Economics structure for Class 10",
+          "overview": "This chapter covers Consumer Rights as part of the Class 10 Economics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Consumer Rights.",
+            "Build confidence in Economics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Core terms in Consumer Rights",
+            "Real-world applications",
+            "Decision making and practice questions"
+          ],
+          "readingPassages": [
+            "Consumer Rights is a Class 10 Economics chapter that focuses on how exchange, finance, and markets affect economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to decision making, flow of money, and connections between producers and consumers. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students relate the topic to saving, spending, trade, and everyday choices. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Consumer Rights. In Class 10 Economics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, connect concepts with everyday choices, read examples and case situations, explain economic ideas in practical language. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember definitions, examples, and how the concept appears in real life."
             }
           ]
         }

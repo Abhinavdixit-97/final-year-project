@@ -3,3 +3,5 @@ dist
 .env
 .env.*
 server/data.sqlite
+.idea/
+*.log

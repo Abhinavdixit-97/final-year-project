@@ -1,83 +1,505 @@
 {
-  "class": 6,
+  "class": "6",
+  "board": "CBSE",
+  "basis": "Official CBSE curriculum with NCERT-aligned chapter and unit structure for supported subjects in this app.",
+  "generatedAt": "2026-04-16T17:37:43.324Z",
+  "sourceLinks": {
+    "cbseCurriculum2026_27": "https://cbseacademic.nic.in/curriculum_2027.html",
+    "cbseCurriculum2025_26": "https://cbseacademic.nic.in/curriculum_2026.html",
+    "ncertTextbooks": "https://ncert.nic.in/textbook.php?ln=en"
+  },
   "subjects": [
     {
       "name": "Mathematics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
-          "chapter": "Number System",
-          "topics": [
+          "id": "6-mathematics-1",
+          "chapter": "Knowing Our Numbers",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Knowing Our Numbers as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Knowing Our Numbers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Knowing Our Numbers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Knowing Our Numbers is a Class 6 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Basic Numbers",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Which is the smallest prime number?","options":["0","1","2","3"],"answer":"2"},
-                {"type":"mcq","question":"Which number is even?","options":["11","15","18","21"],"answer":"18"},
-                {"type":"mcq","question":"Which number is odd?","options":["10","12","15","18"],"answer":"15"},
-                {"type":"mcq","question":"LCM of 4 and 6?","options":["10","12","16","18"],"answer":"12"},
-                {"type":"mcq","question":"HCF of 8 and 12?","options":["2","4","6","8"],"answer":"4"},
-                {"type":"fill_blank","question":"10 × 10 = ___","answer":"100"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Knowing Our Numbers. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
+          "id": "6-mathematics-2",
+          "chapter": "Whole Numbers",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Whole Numbers as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Whole Numbers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Whole Numbers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Whole Numbers is a Class 6 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Whole Numbers. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-3",
+          "chapter": "Playing with Numbers",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Playing with Numbers as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Playing with Numbers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Playing with Numbers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Playing with Numbers is a Class 6 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Playing with Numbers. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-4",
+          "chapter": "Basic Geometrical Ideas",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Basic Geometrical Ideas as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Basic Geometrical Ideas.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Basic Geometrical Ideas",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Basic Geometrical Ideas is a Class 6 Mathematics chapter that focuses on the main ideas introduced in Basic Geometrical Ideas. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Basic Geometrical Ideas. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-5",
+          "chapter": "Understanding Elementary Shapes",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Understanding Elementary Shapes as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Understanding Elementary Shapes.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Understanding Elementary Shapes",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Understanding Elementary Shapes is a Class 6 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Understanding Elementary Shapes. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-6",
+          "chapter": "Integers",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Integers as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Integers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Integers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Integers is a Class 6 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Integers. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-7",
           "chapter": "Fractions",
-          "topics": [
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Fractions as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Fractions.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Fractions",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Fractions is a Class 6 Mathematics chapter that focuses on how quantities are compared and represented in different forms. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to equivalent forms, comparison of parts and wholes, and numerical relationships. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students use these ideas while measuring, sharing, and comparing quantities. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Fraction Operations",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"1/2 + 1/2 = ?","options":["1","2","1/2","0"],"answer":"1"},
-                {"type":"mcq","question":"3/4 is greater than?","options":["1/2","1","2","3"],"answer":"1/2"},
-                {"type":"mcq","question":"2/3 of 9 = ?","options":["3","4","5","6"],"answer":"6"},
-                {"type":"mcq","question":"Which is smallest?","options":["1/2","1/3","1/4","1/5"],"answer":"1/5"},
-                {"type":"mcq","question":"1/4 of 20 = ?","options":["4","5","6","7"],"answer":"5"},
-                {"type":"fill_blank","question":"1/2 of 16 = ___","answer":"8"}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "English",
-      "chapters": [
-        {
-          "chapter": "Grammar",
-          "topics": [
+              "title": "What to read first",
+              "text": "Start with the main idea of Fractions. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
             {
-              "topic": "Parts of Speech",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Which word is a noun?","options":["City","Run","Quick","Jump"],"answer":"City"},
-                {"type":"mcq","question":"Which word is a verb?","options":["Eat","Apple","Book","Chair"],"answer":"Eat"},
-                {"type":"mcq","question":"Which word is an adjective?","options":["Beautiful","Run","Eat","Jump"],"answer":"Beautiful"},
-                {"type":"mcq","question":"Which word is a pronoun?","options":["He","Book","Dog","Chair"],"answer":"He"},
-                {"type":"mcq","question":"Which word is an adverb?","options":["Quickly","Fast","Run","Jump"],"answer":"Quickly"},
-                {"type":"mcq","question":"Which word is a conjunction?","options":["And","Run","Eat","Jump"],"answer":"And"}
-              ]
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
-          "chapter": "Vocabulary",
-          "topics": [
+          "id": "6-mathematics-8",
+          "chapter": "Decimals",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Decimals as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Decimals.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Decimals",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Decimals is a Class 6 Mathematics chapter that focuses on how quantities are compared and represented in different forms. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to equivalent forms, comparison of parts and wholes, and numerical relationships. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students use these ideas while measuring, sharing, and comparing quantities. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Synonyms and Antonyms",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Synonym of brave?","options":["Courageous","Weak","Fear","Lazy"],"answer":"Courageous"},
-                {"type":"mcq","question":"Opposite of dark?","options":["Light","Night","Black","Shadow"],"answer":"Light"},
-                {"type":"mcq","question":"Synonym of happy?","options":["Joyful","Sad","Angry","Cold"],"answer":"Joyful"},
-                {"type":"mcq","question":"Opposite of rich?","options":["Poor","Big","Tall","Fast"],"answer":"Poor"},
-                {"type":"mcq","question":"Synonym of fast?","options":["Quick","Slow","Late","Cold"],"answer":"Quick"},
-                {"type":"mcq","question":"Opposite of early?","options":["Late","Soon","Quick","Now"],"answer":"Late"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Decimals. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-9",
+          "chapter": "Data Handling",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Data Handling as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Data Handling.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Data Handling",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Data Handling is a Class 6 Mathematics chapter that focuses on collecting, organising, and interpreting information. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to tables and graphs, patterns in data, and chance and likelihood. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read information carefully and make sensible conclusions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Data Handling. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-10",
+          "chapter": "Mensuration",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Mensuration as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Mensuration.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Mensuration",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Mensuration is a Class 6 Mathematics chapter that focuses on how quantities are compared and represented in different forms. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to equivalent forms, comparison of parts and wholes, and numerical relationships. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students use these ideas while measuring, sharing, and comparing quantities. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Mensuration. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-11",
+          "chapter": "Algebra",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Algebra as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Algebra.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Algebra",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Algebra is a Class 6 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Algebra. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-12",
+          "chapter": "Ratio and Proportion",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Ratio and Proportion as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Ratio and Proportion.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Ratio and Proportion",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Ratio and Proportion is a Class 6 Mathematics chapter that focuses on how quantities are compared and represented in different forms. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to equivalent forms, comparison of parts and wholes, and numerical relationships. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students use these ideas while measuring, sharing, and comparing quantities. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Ratio and Proportion. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-13",
+          "chapter": "Symmetry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Symmetry as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Symmetry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Symmetry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Symmetry is a Class 6 Mathematics chapter that focuses on the main ideas introduced in Symmetry. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Symmetry. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "6-mathematics-14",
+          "chapter": "Practical Geometry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 6",
+          "overview": "This chapter covers Practical Geometry as part of the Class 6 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Practical Geometry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Practical Geometry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Practical Geometry is a Class 6 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Practical Geometry. In Class 6 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         }
@@ -85,40 +507,1528 @@
     },
     {
       "name": "Science",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
-          "chapter": "Living and Non-Living",
-          "topics": [
+          "id": "6-science-1",
+          "chapter": "Food: Where Does It Come From?",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Food: Where Does It Come From? as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Food: Where Does It Come From?.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Food: Where Does It Come From?",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Food: Where Does It Come From? is a Class 6 Science chapter that focuses on how living bodies get energy, grow, and stay healthy. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to body needs, functions of important components, and health and balance. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "These ideas help students connect science with food habits, fitness, and care of the body. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Characteristics",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Which is a living thing?","options":["Tree","Rock","Water","Air"],"answer":"Tree"},
-                {"type":"mcq","question":"Which is non-living?","options":["Stone","Dog","Plant","Bird"],"answer":"Stone"},
-                {"type":"mcq","question":"Living things need?","options":["Food","Plastic","Metal","Glass"],"answer":"Food"},
-                {"type":"mcq","question":"Plants make food using?","options":["Sunlight","Plastic","Metal","Glass"],"answer":"Sunlight"},
-                {"type":"mcq","question":"Process by which plants make food?","options":["Photosynthesis","Digestion","Respiration","Evaporation"],"answer":"Photosynthesis"},
-                {"type":"mcq","question":"Living things grow and?","options":["Reproduce","Sleep forever","Disappear","Break"],"answer":"Reproduce"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Food: Where Does It Come From?. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
             }
           ]
         },
         {
-          "chapter": "Force and Motion",
-          "topics": [
+          "id": "6-science-2",
+          "chapter": "Components of Food",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Components of Food as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Components of Food.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Components of Food",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Components of Food is a Class 6 Science chapter that focuses on how living bodies get energy, grow, and stay healthy. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to body needs, functions of important components, and health and balance. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "These ideas help students connect science with food habits, fitness, and care of the body. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Basic Physics",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Force can change?","options":["Motion","Color","Taste","Smell"],"answer":"Motion"},
-                {"type":"mcq","question":"Push and pull are types of?","options":["Force","Energy","Light","Heat"],"answer":"Force"},
-                {"type":"mcq","question":"Which force pulls objects to Earth?","options":["Gravity","Magnet","Wind","Water"],"answer":"Gravity"},
-                {"type":"mcq","question":"Magnet attracts?","options":["Iron","Wood","Plastic","Glass"],"answer":"Iron"},
-                {"type":"mcq","question":"Motion means?","options":["Movement","Sleep","Break","Stop"],"answer":"Movement"},
-                {"type":"mcq","question":"Friction slows down?","options":["Motion","Light","Sound","Heat"],"answer":"Motion"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Components of Food. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-3",
+          "chapter": "Fibre to Fabric",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Fibre to Fabric as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Fibre to Fabric.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Fibre to Fabric",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Fibre to Fabric is a Class 6 Science chapter that focuses on living plants, their structure, growth, and usefulness. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to plant functions, natural materials, and links with environment and daily life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to understand how nature supports food, materials, and ecosystems. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Fibre to Fabric. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-4",
+          "chapter": "Sorting Materials into Groups",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Sorting Materials into Groups as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Sorting Materials into Groups.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Sorting Materials into Groups",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Sorting Materials into Groups is a Class 6 Science chapter that focuses on the main ideas introduced in Sorting Materials into Groups. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Sorting Materials into Groups. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-5",
+          "chapter": "Separation of Substances",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Separation of Substances as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Separation of Substances.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Separation of Substances",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Separation of Substances is a Class 6 Science chapter that focuses on the main ideas introduced in Separation of Substances. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Separation of Substances. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-6",
+          "chapter": "Changes Around Us",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Changes Around Us as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Changes Around Us.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Changes Around Us",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Changes Around Us is a Class 6 Science chapter that focuses on the main ideas introduced in Changes Around Us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Changes Around Us. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-7",
+          "chapter": "Getting to Know Plants",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Getting to Know Plants as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Getting to Know Plants.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Getting to Know Plants",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Getting to Know Plants is a Class 6 Science chapter that focuses on living plants, their structure, growth, and usefulness. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to plant functions, natural materials, and links with environment and daily life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to understand how nature supports food, materials, and ecosystems. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Getting to Know Plants. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-8",
+          "chapter": "Body Movements",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Body Movements as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Body Movements.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Body Movements",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Body Movements is a Class 6 Science chapter that focuses on the main ideas introduced in Body Movements. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Body Movements. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-9",
+          "chapter": "The Living Organisms and Their Surroundings",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers The Living Organisms and Their Surroundings as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Living Organisms and Their Surroundings.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from The Living Organisms and Their Surroundings",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "The Living Organisms and Their Surroundings is a Class 6 Science chapter that focuses on life processes, living systems, and continuity of life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to structure and function, growth and survival, and interaction within living systems. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students understand how living things function, adapt, and remain connected to the environment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Living Organisms and Their Surroundings. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-10",
+          "chapter": "Motion and Measurement of Distances",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Motion and Measurement of Distances as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Motion and Measurement of Distances.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Motion and Measurement of Distances",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Motion and Measurement of Distances is a Class 6 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Motion and Measurement of Distances. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-11",
+          "chapter": "Light, Shadows and Reflections",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Light, Shadows and Reflections as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Light, Shadows and Reflections.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Light, Shadows and Reflections",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Light, Shadows and Reflections is a Class 6 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Light, Shadows and Reflections. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-12",
+          "chapter": "Electricity and Circuits",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Electricity and Circuits as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Electricity and Circuits.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Electricity and Circuits",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Electricity and Circuits is a Class 6 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Electricity and Circuits. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-13",
+          "chapter": "Fun with Magnets",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Fun with Magnets as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Fun with Magnets.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Fun with Magnets",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Fun with Magnets is a Class 6 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Fun with Magnets. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-14",
+          "chapter": "Water",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Water as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Water.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Water",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Water is a Class 6 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Water. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-15",
+          "chapter": "Air Around Us",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Air Around Us as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Air Around Us.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Air Around Us",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Air Around Us is a Class 6 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Air Around Us. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "6-science-16",
+          "chapter": "Garbage In, Garbage Out",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 6",
+          "overview": "This chapter covers Garbage In, Garbage Out as part of the Class 6 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Garbage In, Garbage Out.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Garbage In, Garbage Out",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Garbage In, Garbage Out is a Class 6 Science chapter that focuses on the main ideas introduced in Garbage In, Garbage Out. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Garbage In, Garbage Out. In Class 6 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "6-history-1",
+          "chapter": "What, Where, How and When?",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers What, Where, How and When? as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from What, Where, How and When?.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in What, Where, How and When?",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "What, Where, How and When? is a Class 6 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of What, Where, How and When?. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "6-history-2",
+          "chapter": "From Hunting-Gathering to Growing Food",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers From Hunting-Gathering to Growing Food as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from From Hunting-Gathering to Growing Food.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in From Hunting-Gathering to Growing Food",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "From Hunting-Gathering to Growing Food is a Class 6 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of From Hunting-Gathering to Growing Food. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "6-history-3",
+          "chapter": "In the Earliest Cities",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers In the Earliest Cities as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from In the Earliest Cities.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in In the Earliest Cities",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "In the Earliest Cities is a Class 6 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of In the Earliest Cities. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "6-history-4",
+          "chapter": "What Books and Burials Tell Us",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers What Books and Burials Tell Us as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from What Books and Burials Tell Us.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in What Books and Burials Tell Us",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "What Books and Burials Tell Us is a Class 6 History chapter that focuses on ideas, culture, and the ways people expressed belief and identity. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to sources of history, cultural change, and everyday life and expression. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The reading encourages students to connect art, ideas, and social life with historical study. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of What Books and Burials Tell Us. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "6-history-5",
+          "chapter": "Kingdoms, Kings and an Early Republic",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers Kingdoms, Kings and an Early Republic as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Kingdoms, Kings and an Early Republic.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Kingdoms, Kings and an Early Republic",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Kingdoms, Kings and an Early Republic is a Class 6 History chapter that focuses on political power, rule, and administration in the past. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rulers and institutions, expansion and control, and records of the past. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn that history is built from evidence, events, and changing forms of power. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Kingdoms, Kings and an Early Republic. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "6-history-6",
+          "chapter": "New Questions and Ideas",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers New Questions and Ideas as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from New Questions and Ideas.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in New Questions and Ideas",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "New Questions and Ideas is a Class 6 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of New Questions and Ideas. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "6-history-7",
+          "chapter": "From a Kingdom to an Empire",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers From a Kingdom to an Empire as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from From a Kingdom to an Empire.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in From a Kingdom to an Empire",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "From a Kingdom to an Empire is a Class 6 History chapter that focuses on political power, rule, and administration in the past. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rulers and institutions, expansion and control, and records of the past. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn that history is built from evidence, events, and changing forms of power. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of From a Kingdom to an Empire. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "6-history-8",
+          "chapter": "Villages, Towns and Trade",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers Villages, Towns and Trade as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Villages, Towns and Trade.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Villages, Towns and Trade",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Villages, Towns and Trade is a Class 6 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Villages, Towns and Trade. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "6-history-9",
+          "chapter": "New Empires and Kingdoms",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers New Empires and Kingdoms as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from New Empires and Kingdoms.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in New Empires and Kingdoms",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "New Empires and Kingdoms is a Class 6 History chapter that focuses on political power, rule, and administration in the past. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rulers and institutions, expansion and control, and records of the past. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn that history is built from evidence, events, and changing forms of power. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of New Empires and Kingdoms. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "6-history-10",
+          "chapter": "Buildings, Paintings and Books",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 6",
+          "overview": "This chapter covers Buildings, Paintings and Books as part of the Class 6 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Buildings, Paintings and Books.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Buildings, Paintings and Books",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Buildings, Paintings and Books is a Class 6 History chapter that focuses on ideas, culture, and the ways people expressed belief and identity. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to sources of history, cultural change, and everyday life and expression. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The reading encourages students to connect art, ideas, and social life with historical study. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Buildings, Paintings and Books. In Class 6 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "6-geography-1",
+          "chapter": "The Earth in the Solar System",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 6",
+          "overview": "This chapter covers The Earth in the Solar System as part of the Class 6 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Earth in the Solar System.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in The Earth in the Solar System",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "The Earth in the Solar System is a Class 6 Geography chapter that focuses on the Earth as a place that can be observed, located, and represented. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to location and direction, maps and models, and spatial understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read the world carefully and connect places with patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Earth in the Solar System. In Class 6 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "6-geography-2",
+          "chapter": "Globe: Latitudes and Longitudes",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 6",
+          "overview": "This chapter covers Globe: Latitudes and Longitudes as part of the Class 6 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Globe: Latitudes and Longitudes.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Globe: Latitudes and Longitudes",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Globe: Latitudes and Longitudes is a Class 6 Geography chapter that focuses on the Earth as a place that can be observed, located, and represented. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to location and direction, maps and models, and spatial understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read the world carefully and connect places with patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Globe: Latitudes and Longitudes. In Class 6 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "6-geography-3",
+          "chapter": "Motions of the Earth",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 6",
+          "overview": "This chapter covers Motions of the Earth as part of the Class 6 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Motions of the Earth.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Motions of the Earth",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Motions of the Earth is a Class 6 Geography chapter that focuses on the Earth as a place that can be observed, located, and represented. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to location and direction, maps and models, and spatial understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read the world carefully and connect places with patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Motions of the Earth. In Class 6 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "6-geography-4",
+          "chapter": "Maps",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 6",
+          "overview": "This chapter covers Maps as part of the Class 6 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Maps.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Maps",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Maps is a Class 6 Geography chapter that focuses on the Earth as a place that can be observed, located, and represented. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to location and direction, maps and models, and spatial understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read the world carefully and connect places with patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Maps. In Class 6 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "6-geography-5",
+          "chapter": "Major Domains of the Earth",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 6",
+          "overview": "This chapter covers Major Domains of the Earth as part of the Class 6 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Major Domains of the Earth.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Major Domains of the Earth",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Major Domains of the Earth is a Class 6 Geography chapter that focuses on the Earth as a place that can be observed, located, and represented. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to location and direction, maps and models, and spatial understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read the world carefully and connect places with patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Major Domains of the Earth. In Class 6 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "6-geography-6",
+          "chapter": "Major Landforms of the Earth",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 6",
+          "overview": "This chapter covers Major Landforms of the Earth as part of the Class 6 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Major Landforms of the Earth.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Major Landforms of the Earth",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Major Landforms of the Earth is a Class 6 Geography chapter that focuses on the Earth as a place that can be observed, located, and represented. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to location and direction, maps and models, and spatial understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read the world carefully and connect places with patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Major Landforms of the Earth. In Class 6 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "6-geography-7",
+          "chapter": "Our Country: India",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 6",
+          "overview": "This chapter covers Our Country: India as part of the Class 6 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Our Country: India.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Our Country: India",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Our Country: India is a Class 6 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Our Country: India. In Class 6 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "6-geography-8",
+          "chapter": "India: Climate, Vegetation and Wildlife",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 6",
+          "overview": "This chapter covers India: Climate, Vegetation and Wildlife as part of the Class 6 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from India: Climate, Vegetation and Wildlife.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in India: Climate, Vegetation and Wildlife",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "India: Climate, Vegetation and Wildlife is a Class 6 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of India: Climate, Vegetation and Wildlife. In Class 6 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "6-civics-1",
+          "chapter": "Understanding Diversity",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 6",
+          "overview": "This chapter covers Understanding Diversity as part of the Class 6 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Understanding Diversity.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Understanding Diversity",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Understanding Diversity is a Class 6 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Understanding Diversity. In Class 6 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "6-civics-2",
+          "chapter": "Diversity and Discrimination",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 6",
+          "overview": "This chapter covers Diversity and Discrimination as part of the Class 6 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Diversity and Discrimination.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Diversity and Discrimination",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Diversity and Discrimination is a Class 6 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Diversity and Discrimination. In Class 6 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "6-civics-3",
+          "chapter": "What Is Government?",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 6",
+          "overview": "This chapter covers What Is Government? as part of the Class 6 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from What Is Government?.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in What Is Government?",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "What Is Government? is a Class 6 Civics chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of What Is Government?. In Class 6 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "6-civics-4",
+          "chapter": "Key Elements of a Democratic Government",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 6",
+          "overview": "This chapter covers Key Elements of a Democratic Government as part of the Class 6 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Key Elements of a Democratic Government.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Key Elements of a Democratic Government",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Key Elements of a Democratic Government is a Class 6 Civics chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Key Elements of a Democratic Government. In Class 6 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "6-civics-5",
+          "chapter": "Panchayati Raj",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 6",
+          "overview": "This chapter covers Panchayati Raj as part of the Class 6 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Panchayati Raj.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Panchayati Raj",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Panchayati Raj is a Class 6 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Panchayati Raj. In Class 6 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "6-civics-6",
+          "chapter": "Rural Administration",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 6",
+          "overview": "This chapter covers Rural Administration as part of the Class 6 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Rural Administration.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Rural Administration",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Rural Administration is a Class 6 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Rural Administration. In Class 6 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "6-civics-7",
+          "chapter": "Urban Administration",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 6",
+          "overview": "This chapter covers Urban Administration as part of the Class 6 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Urban Administration.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Urban Administration",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Urban Administration is a Class 6 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Urban Administration. In Class 6 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "6-civics-8",
+          "chapter": "Rural Livelihoods",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 6",
+          "overview": "This chapter covers Rural Livelihoods as part of the Class 6 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Rural Livelihoods.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Rural Livelihoods",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Rural Livelihoods is a Class 6 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Rural Livelihoods. In Class 6 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "6-civics-9",
+          "chapter": "Urban Livelihoods",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 6",
+          "overview": "This chapter covers Urban Livelihoods as part of the Class 6 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Urban Livelihoods.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Urban Livelihoods",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Urban Livelihoods is a Class 6 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Urban Livelihoods. In Class 6 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
             }
           ]
         }

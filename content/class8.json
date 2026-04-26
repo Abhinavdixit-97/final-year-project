@@ -1,83 +1,575 @@
 {
-  "class": 8,
+  "class": "8",
+  "board": "CBSE",
+  "basis": "Official CBSE curriculum with NCERT-aligned chapter and unit structure for supported subjects in this app.",
+  "generatedAt": "2026-04-16T17:37:43.331Z",
+  "sourceLinks": {
+    "cbseCurriculum2026_27": "https://cbseacademic.nic.in/curriculum_2027.html",
+    "cbseCurriculum2025_26": "https://cbseacademic.nic.in/curriculum_2026.html",
+    "ncertTextbooks": "https://ncert.nic.in/textbook.php?ln=en"
+  },
   "subjects": [
     {
       "name": "Mathematics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
+          "id": "8-mathematics-1",
           "chapter": "Rational Numbers",
-          "topics": [
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Rational Numbers as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Rational Numbers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Rational Numbers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Rational Numbers is a Class 8 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Basic Rational Numbers",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Which is a rational number?","options":["1/2","√2","π","√3"],"answer":"1/2"},
-                {"type":"mcq","question":"2/3 + 1/3 = ?","options":["1","2","3","0"],"answer":"1"},
-                {"type":"mcq","question":"Which is greater?","options":["3/4","2/4","1/4","1/2"],"answer":"3/4"},
-                {"type":"mcq","question":"Reciprocal of 5/2?","options":["2/5","5/2","10","1/2"],"answer":"2/5"},
-                {"type":"mcq","question":"(-2/3) + (2/3) = ?","options":["0","1","-1","2"],"answer":"0"},
-                {"type":"fill_blank","question":"4/5 + 1/5 = ___","answer":"1"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Rational Numbers. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
-          "chapter": "Linear Equations",
-          "topics": [
+          "id": "8-mathematics-2",
+          "chapter": "Linear Equations in One Variable",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Linear Equations in One Variable as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Linear Equations in One Variable.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Linear Equations in One Variable",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Linear Equations in One Variable is a Class 8 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Solving Linear Equations",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Solve x + 5 = 12","options":["7","5","12","17"],"answer":"7"},
-                {"type":"mcq","question":"Solve 2x = 10","options":["2","5","10","20"],"answer":"5"},
-                {"type":"mcq","question":"Solve x - 4 = 6","options":["10","2","6","4"],"answer":"10"},
-                {"type":"mcq","question":"Value of x if 3x = 9","options":["1","2","3","4"],"answer":"3"},
-                {"type":"mcq","question":"Solve x + 8 = 15","options":["5","6","7","8"],"answer":"7"},
-                {"type":"fill_blank","question":"If x + 3 = 9 then x = ___","answer":"6"}
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "English",
-      "chapters": [
-        {
-          "chapter": "Grammar",
-          "topics": [
+              "title": "What to read first",
+              "text": "Start with the main idea of Linear Equations in One Variable. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
             {
-              "topic": "Active and Passive Voice",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Ram wrote a letter. (Passive voice)","options":["A letter was written by Ram","Ram is writing a letter","Ram writes a letter","Letter writes Ram"],"answer":"A letter was written by Ram"},
-                {"type":"mcq","question":"She is singing a song. (Passive)","options":["A song is sung by her","A song is being sung by her","Song sung by her","She sung a song"],"answer":"A song is being sung by her"},
-                {"type":"mcq","question":"They built a house. (Passive)","options":["A house was built by them","A house is built","House build them","They building house"],"answer":"A house was built by them"},
-                {"type":"mcq","question":"He eats an apple. (Passive)","options":["An apple is eaten by him","Apple eaten him","Apple eat him","An apple eats him"],"answer":"An apple is eaten by him"},
-                {"type":"mcq","question":"Teacher teaches students. (Passive)","options":["Students are taught by teacher","Teacher taught students","Students teach teacher","Students taught teacher"],"answer":"Students are taught by teacher"},
-                {"type":"mcq","question":"The chef cooked food. (Passive)","options":["Food was cooked by chef","Food cooks chef","Chef cooked food","Food cooking chef"],"answer":"Food was cooked by chef"}
-              ]
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         },
         {
-          "chapter": "Vocabulary",
-          "topics": [
+          "id": "8-mathematics-3",
+          "chapter": "Understanding Quadrilaterals",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Understanding Quadrilaterals as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Understanding Quadrilaterals.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Understanding Quadrilaterals",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Understanding Quadrilaterals is a Class 8 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Synonyms and Antonyms",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Synonym of ancient?","options":["Old","New","Young","Fresh"],"answer":"Old"},
-                {"type":"mcq","question":"Opposite of victory?","options":["Defeat","Win","Success","Champion"],"answer":"Defeat"},
-                {"type":"mcq","question":"Synonym of silent?","options":["Quiet","Loud","Noisy","Shout"],"answer":"Quiet"},
-                {"type":"mcq","question":"Opposite of honest?","options":["Dishonest","Truthful","Kind","Loyal"],"answer":"Dishonest"},
-                {"type":"mcq","question":"Synonym of rapid?","options":["Fast","Slow","Late","Cold"],"answer":"Fast"},
-                {"type":"mcq","question":"Opposite of generous?","options":["Selfish","Kind","Helpful","Friendly"],"answer":"Selfish"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Understanding Quadrilaterals. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-4",
+          "chapter": "Practical Geometry",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Practical Geometry as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Practical Geometry.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Practical Geometry",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Practical Geometry is a Class 8 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Practical Geometry. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-5",
+          "chapter": "Data Handling",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Data Handling as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Data Handling.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Data Handling",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Data Handling is a Class 8 Mathematics chapter that focuses on collecting, organising, and interpreting information. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to tables and graphs, patterns in data, and chance and likelihood. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn to read information carefully and make sensible conclusions. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Data Handling. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-6",
+          "chapter": "Squares and Square Roots",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Squares and Square Roots as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Squares and Square Roots.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Squares and Square Roots",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Squares and Square Roots is a Class 8 Mathematics chapter that focuses on the main ideas introduced in Squares and Square Roots. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Squares and Square Roots. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-7",
+          "chapter": "Cubes and Cube Roots",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Cubes and Cube Roots as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Cubes and Cube Roots.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Cubes and Cube Roots",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Cubes and Cube Roots is a Class 8 Mathematics chapter that focuses on the main ideas introduced in Cubes and Cube Roots. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Cubes and Cube Roots. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-8",
+          "chapter": "Comparing Quantities",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Comparing Quantities as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Comparing Quantities.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Comparing Quantities",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Comparing Quantities is a Class 8 Mathematics chapter that focuses on the main ideas introduced in Comparing Quantities. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Comparing Quantities. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-9",
+          "chapter": "Algebraic Expressions and Identities",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Algebraic Expressions and Identities as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Algebraic Expressions and Identities.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Algebraic Expressions and Identities",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Algebraic Expressions and Identities is a Class 8 Mathematics chapter that focuses on patterns and relationships expressed with symbols and rules. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to variables and symbols, rules and structure, and step-by-step reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Algebra helps students move from arithmetic thinking to general mathematical reasoning. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Algebraic Expressions and Identities. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-10",
+          "chapter": "Visualising Solid Shapes",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Visualising Solid Shapes as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Visualising Solid Shapes.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Visualising Solid Shapes",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Visualising Solid Shapes is a Class 8 Mathematics chapter that focuses on space, shape, measurement, and geometric relationships. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to properties of figures, measurement and construction, and visual reasoning. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geometric thinking supports drawing, measuring, and understanding spatial patterns. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Visualising Solid Shapes. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-11",
+          "chapter": "Mensuration",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Mensuration as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Mensuration.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Mensuration",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Mensuration is a Class 8 Mathematics chapter that focuses on how quantities are compared and represented in different forms. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to equivalent forms, comparison of parts and wholes, and numerical relationships. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students use these ideas while measuring, sharing, and comparing quantities. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Mensuration. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-12",
+          "chapter": "Exponents and Powers",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Exponents and Powers as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Exponents and Powers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Exponents and Powers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Exponents and Powers is a Class 8 Mathematics chapter that focuses on the main ideas introduced in Exponents and Powers. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Exponents and Powers. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-13",
+          "chapter": "Direct and Inverse Proportions",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Direct and Inverse Proportions as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Direct and Inverse Proportions.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Direct and Inverse Proportions",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Direct and Inverse Proportions is a Class 8 Mathematics chapter that focuses on how quantities are compared and represented in different forms. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to equivalent forms, comparison of parts and wholes, and numerical relationships. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students use these ideas while measuring, sharing, and comparing quantities. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Direct and Inverse Proportions. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-14",
+          "chapter": "Factorisation",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Factorisation as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Factorisation.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Factorisation",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Factorisation is a Class 8 Mathematics chapter that focuses on the main ideas introduced in Factorisation. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Factorisation. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-15",
+          "chapter": "Introduction to Graphs",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Introduction to Graphs as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Introduction to Graphs.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Introduction to Graphs",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Introduction to Graphs is a Class 8 Mathematics chapter that focuses on the main ideas introduced in Introduction to Graphs. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Introduction to Graphs. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
+            }
+          ]
+        },
+        {
+          "id": "8-mathematics-16",
+          "chapter": "Playing with Numbers",
+          "officialReference": "CBSE/NCERT aligned Mathematics structure for Class 8",
+          "overview": "This chapter covers Playing with Numbers as part of the Class 8 Mathematics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Playing with Numbers.",
+            "Build confidence in Mathematics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Definitions and patterns in Playing with Numbers",
+            "Worked examples",
+            "Step-by-step problem solving"
+          ],
+          "readingPassages": [
+            "Playing with Numbers is a Class 8 Mathematics chapter that focuses on how numbers are written, compared, and used in mathematical thinking. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to place value, ordering and comparison, and properties of operations. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Number sense helps students estimate, calculate, and check answers in daily life and higher mathematics. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Playing with Numbers. In Class 8 Mathematics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, reason step by step, connect examples to rules, check each calculation carefully. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise definitions, patterns, and solved examples before the quiz."
             }
           ]
         }
@@ -85,40 +577,1528 @@
     },
     {
       "name": "Science",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
       "chapters": [
         {
-          "chapter": "Crop Production",
-          "topics": [
+          "id": "8-science-1",
+          "chapter": "Crop Production and Management",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Crop Production and Management as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Crop Production and Management.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Crop Production and Management",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Crop Production and Management is a Class 8 Science chapter that focuses on living plants, their structure, growth, and usefulness. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to plant functions, natural materials, and links with environment and daily life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to understand how nature supports food, materials, and ecosystems. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Agricultural Practices",
-              "level": 1,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Growing crops is called?","options":["Agriculture","Mining","Fishing","Hunting"],"answer":"Agriculture"},
-                {"type":"mcq","question":"Process of loosening soil?","options":["Ploughing","Harvesting","Weeding","Sowing"],"answer":"Ploughing"},
-                {"type":"mcq","question":"Removing unwanted plants?","options":["Weeding","Harvesting","Ploughing","Sowing"],"answer":"Weeding"},
-                {"type":"mcq","question":"Cutting mature crops?","options":["Harvesting","Ploughing","Sowing","Irrigation"],"answer":"Harvesting"},
-                {"type":"mcq","question":"Supply of water to crops?","options":["Irrigation","Harvesting","Ploughing","Storage"],"answer":"Irrigation"},
-                {"type":"mcq","question":"Wheat is a?","options":["Rabi crop","Kharif crop","Fruit","Vegetable"],"answer":"Rabi crop"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Crop Production and Management. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
             }
           ]
         },
         {
-          "chapter": "Force and Pressure",
-          "topics": [
+          "id": "8-science-2",
+          "chapter": "Microorganisms: Friend and Foe",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Microorganisms: Friend and Foe as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Microorganisms: Friend and Foe.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Microorganisms: Friend and Foe",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Microorganisms: Friend and Foe is a Class 8 Science chapter that focuses on life processes, living systems, and continuity of life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to structure and function, growth and survival, and interaction within living systems. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students understand how living things function, adapt, and remain connected to the environment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
             {
-              "topic": "Physics Basics",
-              "level": 2,
-              "xp_reward": 10,
-              "questions": [
-                {"type":"mcq","question":"Force can change?","options":["Shape","Color","Taste","Smell"],"answer":"Shape"},
-                {"type":"mcq","question":"Unit of force?","options":["Newton","Meter","Gram","Second"],"answer":"Newton"},
-                {"type":"mcq","question":"Force per unit area is called?","options":["Pressure","Energy","Power","Heat"],"answer":"Pressure"},
-                {"type":"mcq","question":"Pressure increases when area?","options":["Decreases","Increases","Same","Zero"],"answer":"Decreases"},
-                {"type":"mcq","question":"Which force pulls objects to Earth?","options":["Gravity","Magnetism","Friction","Wind"],"answer":"Gravity"},
-                {"type":"mcq","question":"Friction acts between?","options":["Surfaces","Liquids only","Air only","Vacuum"],"answer":"Surfaces"}
-              ]
+              "title": "What to read first",
+              "text": "Start with the main idea of Microorganisms: Friend and Foe. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-3",
+          "chapter": "Synthetic Fibres and Plastics",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Synthetic Fibres and Plastics as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Synthetic Fibres and Plastics.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Synthetic Fibres and Plastics",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Synthetic Fibres and Plastics is a Class 8 Science chapter that focuses on living plants, their structure, growth, and usefulness. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to plant functions, natural materials, and links with environment and daily life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to understand how nature supports food, materials, and ecosystems. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Synthetic Fibres and Plastics. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-4",
+          "chapter": "Materials: Metals and Non-Metals",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Materials: Metals and Non-Metals as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Materials: Metals and Non-Metals.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Materials: Metals and Non-Metals",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Materials: Metals and Non-Metals is a Class 8 Science chapter that focuses on the composition of matter and the way substances behave and change. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to particles and structure, properties of substances, and chemical change. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This helps students explain materials around them using scientific language and evidence. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Materials: Metals and Non-Metals. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-5",
+          "chapter": "Coal and Petroleum",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Coal and Petroleum as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Coal and Petroleum.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Coal and Petroleum",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Coal and Petroleum is a Class 8 Science chapter that focuses on the main ideas introduced in Coal and Petroleum. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Coal and Petroleum. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-6",
+          "chapter": "Combustion and Flame",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Combustion and Flame as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Combustion and Flame.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Combustion and Flame",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Combustion and Flame is a Class 8 Science chapter that focuses on the main ideas introduced in Combustion and Flame. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Combustion and Flame. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-7",
+          "chapter": "Conservation of Plants and Animals",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Conservation of Plants and Animals as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Conservation of Plants and Animals.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Conservation of Plants and Animals",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Conservation of Plants and Animals is a Class 8 Science chapter that focuses on living plants, their structure, growth, and usefulness. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to plant functions, natural materials, and links with environment and daily life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to understand how nature supports food, materials, and ecosystems. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Conservation of Plants and Animals. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-8",
+          "chapter": "Cell: Structure and Functions",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Cell: Structure and Functions as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Cell: Structure and Functions.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Cell: Structure and Functions",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Cell: Structure and Functions is a Class 8 Science chapter that focuses on life processes, living systems, and continuity of life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to structure and function, growth and survival, and interaction within living systems. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students understand how living things function, adapt, and remain connected to the environment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Cell: Structure and Functions. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-9",
+          "chapter": "Reproduction in Animals",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Reproduction in Animals as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Reproduction in Animals.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Reproduction in Animals",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Reproduction in Animals is a Class 8 Science chapter that focuses on life processes, living systems, and continuity of life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to structure and function, growth and survival, and interaction within living systems. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students understand how living things function, adapt, and remain connected to the environment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Reproduction in Animals. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-10",
+          "chapter": "Reaching the Age of Adolescence",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Reaching the Age of Adolescence as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Reaching the Age of Adolescence.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Reaching the Age of Adolescence",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Reaching the Age of Adolescence is a Class 8 Science chapter that focuses on the main ideas introduced in Reaching the Age of Adolescence. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Reaching the Age of Adolescence. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-11",
+          "chapter": "Force and Pressure",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Force and Pressure as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Force and Pressure.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Force and Pressure",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Force and Pressure is a Class 8 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Force and Pressure. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-12",
+          "chapter": "Friction",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Friction as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Friction.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Friction",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Friction is a Class 8 Science chapter that focuses on the main ideas introduced in Friction. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Friction. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-13",
+          "chapter": "Sound",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Sound as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Sound.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Sound",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Sound is a Class 8 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Sound. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-14",
+          "chapter": "Chemical Effects of Electric Current",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Chemical Effects of Electric Current as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Chemical Effects of Electric Current.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Chemical Effects of Electric Current",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Chemical Effects of Electric Current is a Class 8 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Chemical Effects of Electric Current. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-15",
+          "chapter": "Some Natural Phenomena",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Some Natural Phenomena as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Some Natural Phenomena.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Some Natural Phenomena",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Some Natural Phenomena is a Class 8 Science chapter that focuses on the main ideas introduced in Some Natural Phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Some Natural Phenomena. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-16",
+          "chapter": "Light",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Light as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Light.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Light",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Light is a Class 8 Science chapter that focuses on physical processes that explain movement, energy, and natural phenomena. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cause and effect, observation and explanation, and laws and patterns. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect classroom science with machines, movement, light, sound, and technology. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Light. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-17",
+          "chapter": "Stars and the Solar System",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Stars and the Solar System as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Stars and the Solar System.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Stars and the Solar System",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Stars and the Solar System is a Class 8 Science chapter that focuses on the main ideas introduced in Stars and the Solar System. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to core concepts, important examples, and clear explanation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The topic builds understanding that will later support revision and assessment. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Stars and the Solar System. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        },
+        {
+          "id": "8-science-18",
+          "chapter": "Pollution of Air and Water",
+          "officialReference": "CBSE/NCERT aligned Science structure for Class 8",
+          "overview": "This chapter covers Pollution of Air and Water as part of the Class 8 Science learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Pollution of Air and Water.",
+            "Build confidence in Science through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Key concepts from Pollution of Air and Water",
+            "Observation, reasoning, and explanation",
+            "Important examples and everyday links"
+          ],
+          "readingPassages": [
+            "Pollution of Air and Water is a Class 8 Science chapter that focuses on natural systems and how they support life on Earth. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to cycles and balance, human impact, and care and conservation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners observe their surroundings and think about responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Pollution of Air and Water. In Class 8 Science, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, observe the concept clearly, link ideas to experiments and daily life, explain causes and effects in simple words. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Focus on scientific ideas, examples, and what happens in real-life situations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "8-history-1",
+          "chapter": "How, When and Where",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 8",
+          "overview": "This chapter covers How, When and Where as part of the Class 8 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from How, When and Where.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in How, When and Where",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "How, When and Where is a Class 8 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of How, When and Where. In Class 8 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "8-history-2",
+          "chapter": "From Trade to Territory",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 8",
+          "overview": "This chapter covers From Trade to Territory as part of the Class 8 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from From Trade to Territory.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in From Trade to Territory",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "From Trade to Territory is a Class 8 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of From Trade to Territory. In Class 8 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "8-history-3",
+          "chapter": "Ruling the Countryside",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 8",
+          "overview": "This chapter covers Ruling the Countryside as part of the Class 8 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Ruling the Countryside.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Ruling the Countryside",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Ruling the Countryside is a Class 8 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Ruling the Countryside. In Class 8 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "8-history-4",
+          "chapter": "Tribals, Dikus and the Vision of a Golden Age",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 8",
+          "overview": "This chapter covers Tribals, Dikus and the Vision of a Golden Age as part of the Class 8 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Tribals, Dikus and the Vision of a Golden Age.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Tribals, Dikus and the Vision of a Golden Age",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Tribals, Dikus and the Vision of a Golden Age is a Class 8 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Tribals, Dikus and the Vision of a Golden Age. In Class 8 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "8-history-5",
+          "chapter": "When People Rebel",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 8",
+          "overview": "This chapter covers When People Rebel as part of the Class 8 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from When People Rebel.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in When People Rebel",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "When People Rebel is a Class 8 History chapter that focuses on major historical change, resistance, and the making of modern societies. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to causes and consequences, people and movements, and historical interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps students see how ideas and struggles shaped society over time. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of When People Rebel. In Class 8 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "8-history-6",
+          "chapter": "Civilising the Native, Educating the Nation",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 8",
+          "overview": "This chapter covers Civilising the Native, Educating the Nation as part of the Class 8 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Civilising the Native, Educating the Nation.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Civilising the Native, Educating the Nation",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Civilising the Native, Educating the Nation is a Class 8 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Civilising the Native, Educating the Nation. In Class 8 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "8-history-7",
+          "chapter": "Women, Caste and Reform",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 8",
+          "overview": "This chapter covers Women, Caste and Reform as part of the Class 8 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Women, Caste and Reform.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Women, Caste and Reform",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Women, Caste and Reform is a Class 8 History chapter that focuses on people, events, and change over time. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to continuity and change, sources and evidence, and causes and effects. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Historical study helps students understand how the present is connected with the past. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Women, Caste and Reform. In Class 8 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "8-history-8",
+          "chapter": "The Making of the National Movement",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 8",
+          "overview": "This chapter covers The Making of the National Movement as part of the Class 8 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Making of the National Movement.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in The Making of the National Movement",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "The Making of the National Movement is a Class 8 History chapter that focuses on major historical change, resistance, and the making of modern societies. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to causes and consequences, people and movements, and historical interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps students see how ideas and struggles shaped society over time. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Making of the National Movement. In Class 8 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        },
+        {
+          "id": "8-history-9",
+          "chapter": "India After Independence",
+          "officialReference": "CBSE/NCERT aligned History structure for Class 8",
+          "overview": "This chapter covers India After Independence as part of the Class 8 History learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from India After Independence.",
+            "Build confidence in History through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in India After Independence",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "India After Independence is a Class 8 History chapter that focuses on major historical change, resistance, and the making of modern societies. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to causes and consequences, people and movements, and historical interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps students see how ideas and struggles shaped society over time. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of India After Independence. In Class 8 History, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, track timelines and people, notice change over time, connect events with causes and consequences. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Remember important events, terms, and the sequence of developments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "8-geography-1",
+          "chapter": "Resources",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 8",
+          "overview": "This chapter covers Resources as part of the Class 8 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Resources.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Resources",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Resources is a Class 8 Geography chapter that focuses on how humans use natural resources and organise economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to resource use, distribution and management, and human dependence on nature. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to think about sustainability, production, and responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Resources. In Class 8 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "8-geography-2",
+          "chapter": "Land, Soil, Water, Natural Vegetation and Wildlife Resources",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 8",
+          "overview": "This chapter covers Land, Soil, Water, Natural Vegetation and Wildlife Resources as part of the Class 8 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Land, Soil, Water, Natural Vegetation and Wildlife Resources.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Land, Soil, Water, Natural Vegetation and Wildlife Resources",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Land, Soil, Water, Natural Vegetation and Wildlife Resources is a Class 8 Geography chapter that focuses on natural systems that shape the environment around us. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to physical processes, interaction in nature, and regional variation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "This reading helps learners connect weather, land, water, and life in meaningful ways. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Land, Soil, Water, Natural Vegetation and Wildlife Resources. In Class 8 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "8-geography-3",
+          "chapter": "Mineral and Power Resources",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 8",
+          "overview": "This chapter covers Mineral and Power Resources as part of the Class 8 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Mineral and Power Resources.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Mineral and Power Resources",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Mineral and Power Resources is a Class 8 Geography chapter that focuses on how humans use natural resources and organise economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to resource use, distribution and management, and human dependence on nature. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to think about sustainability, production, and responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Mineral and Power Resources. In Class 8 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "8-geography-4",
+          "chapter": "Agriculture",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 8",
+          "overview": "This chapter covers Agriculture as part of the Class 8 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Agriculture.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Agriculture",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Agriculture is a Class 8 Geography chapter that focuses on how humans use natural resources and organise economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to resource use, distribution and management, and human dependence on nature. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to think about sustainability, production, and responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Agriculture. In Class 8 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "8-geography-5",
+          "chapter": "Industries",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 8",
+          "overview": "This chapter covers Industries as part of the Class 8 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Industries.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Industries",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Industries is a Class 8 Geography chapter that focuses on places, environments, and human interaction with them. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to patterns across regions, human-environment links, and observation and interpretation. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Geography helps students describe the world around them with clarity and connection. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Industries. In Class 8 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        },
+        {
+          "id": "8-geography-6",
+          "chapter": "Human Resources",
+          "officialReference": "CBSE/NCERT aligned Geography structure for Class 8",
+          "overview": "This chapter covers Human Resources as part of the Class 8 Geography learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Human Resources.",
+            "Build confidence in Geography through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Places, patterns, and processes in Human Resources",
+            "Map and interpretation points",
+            "Human and environmental links"
+          ],
+          "readingPassages": [
+            "Human Resources is a Class 8 Geography chapter that focuses on how humans use natural resources and organise economic life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to resource use, distribution and management, and human dependence on nature. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students begin to think about sustainability, production, and responsible use of resources. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Human Resources. In Class 8 Geography, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, read maps and patterns, connect places with physical features, explain human-environment relationships. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Keep key map ideas, locations, and processes fresh in your notes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civics",
+      "officialSource": "https://ncert.nic.in/textbook.php?ln=en",
+      "chapters": [
+        {
+          "id": "8-civics-1",
+          "chapter": "The Indian Constitution",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers The Indian Constitution as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from The Indian Constitution.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in The Indian Constitution",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "The Indian Constitution is a Class 8 Civics chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of The Indian Constitution. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "8-civics-2",
+          "chapter": "Understanding Secularism",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers Understanding Secularism as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Understanding Secularism.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Understanding Secularism",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Understanding Secularism is a Class 8 Civics chapter that focuses on citizenship, fairness, and the social questions that shape public life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to inclusion and equality, social identity, and justice in everyday life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners think critically about respect, opportunity, and participation. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Understanding Secularism. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "8-civics-3",
+          "chapter": "Why Do We Need a Parliament?",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers Why Do We Need a Parliament? as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Why Do We Need a Parliament?.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Why Do We Need a Parliament?",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Why Do We Need a Parliament? is a Class 8 Civics chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Why Do We Need a Parliament?. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "8-civics-4",
+          "chapter": "Understanding Laws",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers Understanding Laws as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Understanding Laws.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Understanding Laws",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Understanding Laws is a Class 8 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Understanding Laws. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "8-civics-5",
+          "chapter": "Judiciary",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers Judiciary as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Judiciary.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Judiciary",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Judiciary is a Class 8 Civics chapter that focuses on how democratic institutions and public systems work. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to rules and institutions, representation and participation, and rights and responsibilities. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students connect textbook ideas with how public life and governance affect citizens. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Judiciary. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "8-civics-6",
+          "chapter": "Understanding Our Criminal Justice System",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers Understanding Our Criminal Justice System as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Understanding Our Criminal Justice System.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Understanding Our Criminal Justice System",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Understanding Our Criminal Justice System is a Class 8 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Understanding Our Criminal Justice System. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "8-civics-7",
+          "chapter": "Understanding Marginalisation",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers Understanding Marginalisation as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Understanding Marginalisation.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Understanding Marginalisation",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Understanding Marginalisation is a Class 8 Civics chapter that focuses on citizenship, fairness, and the social questions that shape public life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to inclusion and equality, social identity, and justice in everyday life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners think critically about respect, opportunity, and participation. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Understanding Marginalisation. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "8-civics-8",
+          "chapter": "Confronting Marginalisation",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers Confronting Marginalisation as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Confronting Marginalisation.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Confronting Marginalisation",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Confronting Marginalisation is a Class 8 Civics chapter that focuses on citizenship, fairness, and the social questions that shape public life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to inclusion and equality, social identity, and justice in everyday life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners think critically about respect, opportunity, and participation. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Confronting Marginalisation. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "8-civics-9",
+          "chapter": "Public Facilities",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers Public Facilities as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Public Facilities.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Public Facilities",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Public Facilities is a Class 8 Civics chapter that focuses on public life, citizenship, and shared institutions. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to participation, responsibility, and democratic understanding. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "Students learn how collective decisions and social values shape society. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Public Facilities. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
+            }
+          ]
+        },
+        {
+          "id": "8-civics-10",
+          "chapter": "Law and Social Justice",
+          "officialReference": "CBSE/NCERT aligned Civics structure for Class 8",
+          "overview": "This chapter covers Law and Social Justice as part of the Class 8 Civics learning path. Read it to understand the central ideas, note important examples, and prepare for the quiz that follows.",
+          "learningGoals": [
+            "Understand the main ideas from Law and Social Justice.",
+            "Build confidence in Civics through examples, explanation, and revision.",
+            "Prepare short notes that help you answer chapter-based quiz questions."
+          ],
+          "focusAreas": [
+            "Main ideas in Law and Social Justice",
+            "Important people, institutions, or events",
+            "Cause, effect, and significance"
+          ],
+          "readingPassages": [
+            "Law and Social Justice is a Class 8 Civics chapter that focuses on citizenship, fairness, and the social questions that shape public life. The chapter builds understanding through definitions, examples, and simple situations so that the learner can see the topic as a connected idea rather than as separate facts.",
+            "As the chapter develops, it brings attention to inclusion and equality, social identity, and justice in everyday life. These ideas help the student understand how the topic works step by step and why each rule, example, or explanation is linked to the next one.",
+            "The chapter helps learners think critically about respect, opportunity, and participation. After reading the chapter carefully, the student should be able to explain the main concept in simple words, recognise important terms, and attempt questions with clearer understanding."
+          ],
+          "readingBlocks": [
+            {
+              "title": "What to read first",
+              "text": "Start with the main idea of Law and Social Justice. In Class 8 Civics, this lesson is meant to build clear basics before you move to practice."
+            },
+            {
+              "title": "How to study this chapter",
+              "text": "As you read, understand institutions and citizens, connect rules with everyday life, explain rights and responsibilities clearly. Make 3 to 5 short notes in your own words so the quiz feels easier later."
+            },
+            {
+              "title": "Before the quiz",
+              "text": "Revise key ideas, examples, and how institutions work in real life."
             }
           ]
         }

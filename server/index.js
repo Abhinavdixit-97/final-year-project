@@ -5,7 +5,10 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const path = require("path");
 const fs = require("fs/promises");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { OpenAI } = require("openai");
 const { dbPromise, initDb } = require("./db");
+const { getChapterContent, getContentCatalog } = require("./content");
 
 dotenv.config();
 
@@ -14,8 +17,8 @@ app.use(cors());
 app.use(express.json({ limit: "1mb" }));
 
 const PORT = process.env.PORT || 5050;
-const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
-const OLLAMA_MODEL = process.env.OLLAMA_MODEL || "qwen2.5:7b";
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 const JWT_SECRET = process.env.JWT_SECRET || "dev_secret";
 const DEFAULT_TEACHER_EMAIL =
   process.env.DEFAULT_TEACHER_EMAIL || "teacher@demo.local";
@@ -23,6 +26,9 @@ const DEFAULT_TEACHER_PASSWORD =
   process.env.DEFAULT_TEACHER_PASSWORD || "Teach@123";
 const ROOT_DIR = path.join(__dirname, "..");
 const IS_PROD = process.env.NODE_ENV === "production";
+
+const openai = OPENAI_API_KEY ? new OpenAI({ apiKey: OPENAI_API_KEY }) : null;
+const genAI = GOOGLE_API_KEY ? new GoogleGenerativeAI(GOOGLE_API_KEY) : null;
 
 const safeJsonParse = (text) => {
   const start = text.indexOf("{");
@@ -38,38 +44,231 @@ const safeJsonParse = (text) => {
   }
 };
 
-const buildSystemPrompt = (language, grade, subject) => {
+const buildSystemPrompt = (language, grade, subject, chapter) => {
+  const chapterLine = chapter
+    ? `The current chapter is "${chapter}". All explanations, examples, and quiz questions must be strictly based on this chapter only.`
+    : "";
   return [
-    "You are a child-friendly AI tutor for grades 6 to 12.",
-    "Be kind, encouraging, and concise.",
-    "Avoid harmful, unsafe, or inappropriate content.",
+    "You are a friendly AI tutor and mentor for school students in grades 6 to 12.",
+    "Your role is to help students understand concepts clearly before they practice.",
+    "Always follow this learning flow: Understand First → Then Practice → Then Master.",
     `Use ${language} as the response language.`,
-    `Focus on ${subject} and keep difficulty suitable for grade ${grade}.`,
-    "When asked for JSON output, return ONLY JSON with no extra text."
-  ].join(" ");
+    `The student is in Class ${grade}, studying ${subject}.`,
+    chapterLine,
+    "CONTEXT RULES:",
+    `- Only respond to topics relevant to Class ${grade} ${subject}${chapter ? ` Chapter: ${chapter}` : ""}.`,
+    "- If the student asks about unrelated topics or other classes, politely redirect them back.",
+    "CHAPTER EXPLANATION RULES (when explaining a concept):",
+    "- Use simple, student-friendly language. Avoid complex jargon.",
+    "- Break down concepts step by step.",
+    "- Include real-life examples the student can relate to.",
+    "- Structure your explanation as: 1) Introduction 2) Core concept 3) Example 4) Key points summary.",
+    "QUIZ RULES:",
+    "- Only offer a quiz after explaining the concept.",
+    "- Ask the student if they are ready before starting the quiz.",
+    "- If the student is confused, re-explain in a simpler way before quizzing.",
+    "BEHAVIOR:",
+    "- Be warm, encouraging, and motivating like a good teacher.",
+    "- Keep answers concise but clear.",
+    "- Adapt your explanation based on how well the student seems to understand.",
+    "- Never provide incorrect or unrelated information.",
+    "When asked for JSON output, return ONLY valid JSON with no extra text."
+  ].filter(Boolean).join(" ");
 };
 
-const callOllama = async (messages) => {
-  const response = await fetch(`${OLLAMA_URL}/api/chat`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model: OLLAMA_MODEL,
+const callOpenAI = async (messages, model = "gpt-3.5-turbo") => {
+  if (!openai) {
+    throw new Error("OpenAI API key not configured");
+  }
+  try {
+    console.log("Calling OpenAI with model:", model);
+    const response = await openai.chat.completions.create({
+      model,
       messages,
-      stream: false,
-      options: {
-        temperature: 0.4
-      }
-    })
-  });
+      temperature: 0.4,
+    });
+    console.log("OpenAI response received");
+    return response.choices[0]?.message?.content || "";
+  } catch (error) {
+    console.error("OpenAI API Error:", error.message);
+    throw error;
+  }
+};
 
-  if (!response.ok) {
-    const errorText = await response.text();
-    throw new Error(`Ollama error: ${response.status} ${errorText}`);
+const callGemini = async (prompt, model = "gemini-1.5-flash") => {
+  if (!genAI) {
+    throw new Error("Google API key not configured");
+  }
+  try {
+    const geminiModel = genAI.getGenerativeModel({ model });
+    const result = await geminiModel.generateContent(prompt);
+    return result.response.text();
+  } catch (error) {
+    console.error("Gemini API Error:", error.message);
+    throw error;
+  }
+};
+
+const normalizeHistory = (history) => {
+  if (!Array.isArray(history)) {
+    return [];
   }
 
-  const data = await response.json();
-  return data?.message?.content || "";
+  return history.map((item) => ({
+    role: item.role === "assistant" ? "assistant" : "user",
+    content: String(item.content || "")
+  }));
+};
+
+const normalizeTextList = (value) => {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value
+    .map((item) => String(item || "").trim())
+    .filter(Boolean);
+};
+
+const buildChapterDigest = (chapterContent) => {
+  const lines = [
+    `Grade: ${chapterContent.grade}`,
+    `Board: ${chapterContent.board || "CBSE"}`,
+    `Subject: ${chapterContent.subject}`,
+    `Chapter: ${chapterContent.chapter}`,
+    `Official reference: ${chapterContent.officialReference || ""}`,
+    `Overview: ${chapterContent.overview || ""}`
+  ];
+
+  chapterContent.learningGoals.forEach((goal, index) => {
+    lines.push(`Learning goal ${index + 1}: ${goal}`);
+  });
+
+  chapterContent.focusAreas.forEach((item, index) => {
+    lines.push(`Focus area ${index + 1}: ${item}`);
+  });
+
+  chapterContent.readingPassages.forEach((item, index) => {
+    lines.push(`Reading paragraph ${index + 1}: ${item}`);
+  });
+
+  chapterContent.readingBlocks.forEach((block, index) => {
+    lines.push(`Reading block ${index + 1}: ${block.title} - ${block.text}`);
+  });
+
+  return lines.join("\n");
+};
+
+const fallbackChapterSummary = (chapterContent) => {
+  const keyPoints = chapterContent.focusAreas.slice(0, 4);
+  const studyTips = [
+    "Read one topic at a time and explain it in your own words.",
+    "Turn the learning goals into short recall notes before the quiz.",
+    "Review incorrect answers and note the pattern of mistakes."
+  ];
+  const practiceFocus = chapterContent.learningGoals.slice(0, 4);
+
+  return {
+    chapter: chapterContent.chapter,
+    subject: chapterContent.subject,
+    grade: chapterContent.grade,
+    topicCount: chapterContent.focusAreas.length,
+    questionCount: 5,
+    summary: chapterContent.readingPassages[0] || chapterContent.overview,
+    keyPoints,
+    studyTips,
+    practiceFocus
+  };
+};
+
+const buildFallbackChapterQuiz = (chapterContent) => {
+  const focus = chapterContent.focusAreas.length
+    ? chapterContent.focusAreas
+    : chapterContent.learningGoals;
+  const correctFocus = focus[0] || `Core ideas from ${chapterContent.chapter}`;
+  const alternateFocus = focus[1] || "Worked examples and revision";
+  const subjectDistractors = [
+    "History",
+    "Geography",
+    "Science",
+    "Mathematics",
+    "Economics",
+    "Political Science"
+  ].filter((item) => item !== chapterContent.subject);
+
+  return {
+    chapter: chapterContent.chapter,
+    subject: chapterContent.subject,
+    grade: chapterContent.grade,
+    questions: [
+      {
+        id: `${chapterContent.chapterId || "chapter"}-q1`,
+        question: `Which subject does the chapter "${chapterContent.chapter}" belong to?`,
+        options: [chapterContent.subject, ...subjectDistractors.slice(0, 3)],
+        correctAnswer: chapterContent.subject,
+        explanation: `${chapterContent.chapter} is part of ${chapterContent.subject} for Class ${chapterContent.grade}.`
+      },
+      {
+        id: `${chapterContent.chapterId || "chapter"}-q2`,
+        question: `Which of the following is a focus area for "${chapterContent.chapter}"?`,
+        options: [
+          correctFocus,
+          "Unrelated memorisation only",
+          "Ignoring examples completely",
+          "Skipping the chapter notes"
+        ],
+        correctAnswer: correctFocus,
+        explanation: `The learning path highlights "${correctFocus}" as one of the main focus areas.`
+      },
+      {
+        id: `${chapterContent.chapterId || "chapter"}-q3`,
+        question: `What should a student do before attempting the quiz on "${chapterContent.chapter}"?`,
+        options: [
+          chapterContent.readingBlocks[2]?.text || "Revise key notes and examples.",
+          "Start guessing without reading",
+          "Skip the chapter and open the next one",
+          "Memorise only unrelated facts"
+        ],
+        correctAnswer: chapterContent.readingBlocks[2]?.text || "Revise key notes and examples.",
+        explanation: "The learning path expects the student to read first and revise before the quiz."
+      },
+      {
+        id: `${chapterContent.chapterId || "chapter"}-q4`,
+        question: `Which statement best matches the learning goal of "${chapterContent.chapter}"?`,
+        options: [
+          chapterContent.learningGoals[0] || `Understand the main ideas from ${chapterContent.chapter}.`,
+          "Avoid examples and solved work",
+          "Study a different subject instead",
+          "Ignore the chapter summary"
+        ],
+        correctAnswer:
+          chapterContent.learningGoals[0] || `Understand the main ideas from ${chapterContent.chapter}.`,
+        explanation: "The first learning goal captures the main target of the chapter."
+      },
+      {
+        id: `${chapterContent.chapterId || "chapter"}-q5`,
+        question: `Why is reading the chapter first useful in this learning path?`,
+        options: [
+          `It helps build clarity before answering quiz questions on ${alternateFocus}.`,
+          "It removes the need to think during the quiz",
+          "It makes all questions identical",
+          "It means the student can skip revision forever"
+        ],
+        correctAnswer: `It helps build clarity before answering quiz questions on ${alternateFocus}.`,
+        explanation: "The app is designed so chapter reading builds understanding before the quiz starts."
+      }
+    ]
+  };
+};
+
+const buildGeneralSystemPrompt = (language) => {
+  return [
+    "You are a helpful all-purpose AI assistant inside a learning platform.",
+    "Answer general questions clearly, directly, and in a friendly tone.",
+    "You can help with study topics, technology, coding, project ideas, and everyday knowledge.",
+    "If a request is unsafe or harmful, refuse briefly and redirect safely.",
+    `Use ${language || "English"} as the response language.`
+  ].join(" ");
 };
 
 const seedQuestionsBySubject = {
@@ -591,17 +790,227 @@ app.post("/api/student/attempts", requireAuth("student"), async (req, res) => {
   }
 });
 
+app.get("/api/content/catalog", async (req, res) => {
+  try {
+    const { grade } = req.query || {};
+    const catalog = await getContentCatalog(grade);
+    res.json(catalog);
+  } catch (error) {
+    const status =
+      error.code === "BAD_REQUEST" ? 400 : error.code === "NOT_FOUND" ? 404 : 500;
+    res.status(status).json({ error: error.message || "Failed to load content catalog." });
+  }
+});
+
+app.get("/api/content/chapter", async (req, res) => {
+  try {
+    const { grade, subject, chapter } = req.query || {};
+    const chapterContent = await getChapterContent(grade, subject, chapter);
+    res.json(chapterContent);
+  } catch (error) {
+    const status =
+      error.code === "BAD_REQUEST" ? 400 : error.code === "NOT_FOUND" ? 404 : 500;
+    res.status(status).json({ error: error.message || "Failed to load chapter content." });
+  }
+});
+
+app.post("/api/ai/chapter-summary", async (req, res) => {
+  try {
+    const { language, grade, subject, chapter } = req.body || {};
+    const chapterContent = await getChapterContent(grade, subject, chapter);
+    try {
+      const system = buildSystemPrompt(
+        language || "English",
+        chapterContent.grade,
+        chapterContent.subject,
+        chapterContent.chapter
+      );
+      const userPrompt = [
+        "Explain this chapter to the student following the learning structure:",
+        "1) Introduction of the topic 2) Core concept explanation 3) Real-life example 4) Key points summary.",
+        "Then summarize for study use.",
+        "Include key formulas if any (e.g., math or science formulas).",
+        "Return JSON with keys: summary (string), keyPoints (array), formulas (array), studyTips (array), practiceFocus (array).",
+        "Keep the explanation simple, student-friendly, and chapter-specific.",
+        "Chapter content:",
+        buildChapterDigest(chapterContent)
+      ].join("\n");
+
+      let content;
+      if (genAI) {
+        const fullPrompt = [
+          system,
+          "",
+          userPrompt
+        ].join("\n");
+        content = await callGemini(fullPrompt);
+      } else if (openai) {
+        content = await callOpenAI([
+          { role: "system", content: system },
+          { role: "user", content: userPrompt }
+        ]);
+      } else {
+        throw new Error("No AI API configured. Please set GOOGLE_API_KEY or OPENAI_API_KEY.");
+      }
+
+      const parsed = safeJsonParse(content);
+      if (parsed && parsed.summary) {
+        return res.json({
+          chapter: chapterContent.chapter,
+          subject: chapterContent.subject,
+          grade: chapterContent.grade,
+          topicCount: chapterContent.focusAreas.length,
+          questionCount: 5,
+          summary: String(parsed.summary || "").trim(),
+          keyPoints: normalizeTextList(parsed.keyPoints || parsed.key_points),
+          formulas: normalizeTextList(parsed.formulas || []),
+          studyTips: normalizeTextList(parsed.studyTips || parsed.study_tips),
+          practiceFocus: normalizeTextList(parsed.practiceFocus || parsed.practice_focus)
+        });
+      }
+    } catch (error) {
+    console.error("Chapter Summary Error:", error.message);
+    }
+
+    return res.json(fallbackChapterSummary(chapterContent));
+  } catch (error) {
+    const status =
+      error.code === "BAD_REQUEST" ? 400 : error.code === "NOT_FOUND" ? 404 : 200;
+    if (status !== 200) {
+      return res.status(status).json({ error: error.message || "Failed to summarize chapter." });
+    }
+    return res.json({
+      summary: "The chapter summary assistant is temporarily unavailable.",
+      keyPoints: [],
+      formulas: [],
+      studyTips: [],
+      practiceFocus: []
+    });
+  }
+});
+
+app.post("/api/ai/chapter-quiz", async (req, res) => {
+  try {
+    const { language, grade, subject, chapter, history } = req.body || {};
+    const chapterContent = await getChapterContent(grade, subject, chapter);
+    try {
+      const system = buildSystemPrompt(
+        language || "English",
+        chapterContent.grade,
+        chapterContent.subject,
+        chapterContent.chapter
+      );
+      const userPrompt = [,
+        "Return JSON with a key named questions.",
+        "Each question item must include: question (string), options (array of 4 strings), correctAnswer (string), explanation (string).",
+        "Keep the questions suitable for the student's grade and directly tied to the chapter.",
+        `Previous quiz questions to avoid repeating: ${JSON.stringify(history || [])}`,
+        "Chapter content:",
+        buildChapterDigest(chapterContent)
+      ].join("\n");
+
+      const content = await callOllama([
+        { role: "system", content: system },
+        { role: "user", content: userPrompt }
+      ]);
+
+      const parsed = safeJsonParse(content);
+      if (parsed && Array.isArray(parsed.questions) && parsed.questions.length) {
+        const questions = parsed.questions
+          .map((item, index) => {
+            const options = Array.isArray(item.options)
+              ? item.options.slice(0, 4).map((option) => String(option || "").trim())
+              : [];
+            const correctAnswer = String(item.correctAnswer || item.correct_answer || "").trim();
+            if (!item.question || options.length < 4) {
+              return null;
+            }
+            const fixedCorrectAnswer = options.includes(correctAnswer) ? correctAnswer : options[0];
+            return {
+              id: `${chapterContent.chapterId || "chapter"}-ai-${index + 1}`,
+              question: String(item.question || "").trim(),
+              options,
+              correctAnswer: fixedCorrectAnswer,
+              explanation: String(item.explanation || "").trim()
+            };
+          })
+          .filter(Boolean);
+
+        if (questions.length) {
+          return res.json({
+            chapter: chapterContent.chapter,
+            subject: chapterContent.subject,
+            grade: chapterContent.grade,
+            questions
+          });
+        }
+      }
+    } catch (error) {
+      return res.json(buildFallbackChapterQuiz(chapterContent));
+    }
+
+    return res.json(buildFallbackChapterQuiz(chapterContent));
+  } catch (error) {
+    const status =
+      error.code === "BAD_REQUEST" ? 400 : error.code === "NOT_FOUND" ? 404 : 200;
+    if (status !== 200) {
+      return res.status(status).json({ error: error.message || "Failed to build chapter quiz." });
+    }
+    return res.json({
+      questions: []
+    });
+  }
+});
+
+app.post("/api/ai/general", async (req, res) => {
+  try {
+    const { language, question, history } = req.body || {};
+    if (!String(question || "").trim()) {
+      return res.status(400).json({ error: "Question is required." });
+    }
+
+    const system = buildGeneralSystemPrompt(language);
+    const chatHistory = normalizeHistory(history);
+
+    let content;
+    if (genAI) {
+      const historyText = chatHistory.map(h => `${h.role}: ${h.content}`).join("\n");
+      const fullPrompt = [
+        system,
+        "",
+        historyText,
+        "",
+        `user: ${String(question || "").trim()}`
+      ].join("\n");
+      content = await callGemini(fullPrompt);
+    } else if (openai) {
+      content = await callOpenAI([
+        { role: "system", content: system },
+        ...chatHistory,
+        { role: "user", content: String(question || "").trim() }
+      ]);
+    } else {
+      throw new Error("No AI API configured. Please set GOOGLE_API_KEY or OPENAI_API_KEY.");
+    }
+
+    return res.json({
+      answer: String(content || "").trim() || "I could not generate an answer right now."
+    });
+  } catch (error) {
+    console.error("General AI Error:", error.message);
+    return res.json({
+      answer:
+        "The general AI assistant is not available right now. Please try again in a moment."
+    });
+  }
+});
+
 app.post("/api/ai/doubt", async (req, res) => {
   try {
-    const { language, grade, subject, question, history } = req.body || {};
+    const { language, grade, subject, chapter, question, history } = req.body || {};
 
-    const system = buildSystemPrompt(language, grade, subject);
-    const chatHistory = Array.isArray(history)
-      ? history.map((item) => ({
-          role: item.role === "assistant" ? "assistant" : "user",
-          content: String(item.content || "")
-        }))
-      : [];
+    const system = buildSystemPrompt(language, grade, subject, chapter || "");
+    const chatHistory = normalizeHistory(history);
 
     const userPrompt = [
       "Solve the student's doubt in a clear, child-friendly way.",
@@ -609,11 +1018,26 @@ app.post("/api/ai/doubt", async (req, res) => {
       `Question: ${question}`
     ].join("\n");
 
-    const content = await callOllama([
-      { role: "system", content: system },
-      ...chatHistory,
-      { role: "user", content: userPrompt }
-    ]);
+    let content;
+    if (genAI) {
+      const historyText = chatHistory.map(h => `${h.role}: ${h.content}`).join("\n");
+      const fullPrompt = [
+        system,
+        "",
+        historyText,
+        "",
+        `user: ${userPrompt}`
+      ].join("\n");
+      content = await callGemini(fullPrompt);
+    } else if (openai) {
+      content = await callOpenAI([
+        { role: "system", content: system },
+        ...chatHistory,
+        { role: "user", content: userPrompt }
+      ]);
+    } else {
+      throw new Error("No AI API configured. Please set GOOGLE_API_KEY or OPENAI_API_KEY.");
+    }
 
     const parsed = safeJsonParse(content);
     if (parsed && parsed.answer) {
@@ -626,6 +1050,7 @@ app.post("/api/ai/doubt", async (req, res) => {
       next_steps: []
     });
   } catch (error) {
+    console.error("Doubt Solve Error:", error.message);
     return res.json({
       answer:
         "I'm still warming up. Try again in a moment, or ask your teacher for help.",
@@ -637,7 +1062,7 @@ app.post("/api/ai/doubt", async (req, res) => {
 
 app.post("/api/ai/level", async (req, res) => {
   try {
-    const { language, grade, subject, diagnosticAnswers } = req.body || {};
+    const { language, grade, subject, chapter, diagnosticAnswers } = req.body || {};
     const answers = Array.isArray(diagnosticAnswers) ? diagnosticAnswers : [];
 
     const total = answers.length || 1;
@@ -648,7 +1073,7 @@ app.post("/api/ai/level", async (req, res) => {
     ).length;
     const scorePercent = Math.round((correct / total) * 100);
 
-    const system = buildSystemPrompt(language, grade, subject);
+    const system = buildSystemPrompt(language, grade, subject, chapter || "");
     const userPrompt = [
       "Analyze diagnostic answers and estimate the learner level.",
       "Return JSON with keys: level (beginner|intermediate|advanced), strengths (array), gaps (array), recommendedDifficulty (string).",
@@ -805,8 +1230,8 @@ const fallbackQuestion = (subject, level) => {
 
 app.post("/api/ai/next-question", async (req, res) => {
   try {
-    const { language, grade, subject, level, history } = req.body || {};
-    const system = buildSystemPrompt(language, grade, subject);
+    const { language, grade, subject, chapter, level, history } = req.body || {};
+    const system = buildSystemPrompt(language, grade, subject, chapter || "");
     const userPrompt = [
       "Create one multiple-choice question for the student.",
       "Return JSON with keys: question (string), choices (array of 4 strings), correctAnswer (string), explanation (string), difficultyTag (string).",
